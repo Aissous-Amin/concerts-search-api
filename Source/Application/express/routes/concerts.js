@@ -1,9 +1,13 @@
-const express = require('express');
-const router = express.Router();
+const { middleware, paths } = require('./../index');
+const { ResponseController } = require(__moduleAliases.Infrastructure);
 
-/* GET concerts listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
-
-module.exports = router;
+module.exports = [
+  {
+    route: (app) => {
+      app.route(paths.welcome.url)
+          .get(
+          );
+    },
+    envs: ['all'],
+  },
+];

@@ -1,0 +1,16 @@
+{
+  "welcome": {
+    "url": "/welcome",
+    "query": {}
+  },
+  "get_concerts_collection": {
+    "url": "/concerts",
+    "params": {},
+    "query": {
+      "bandIds": "array of string (or comma separated list)",
+      "latitude": "float",
+      "longitude": "float",
+      "radius": "Int - In kilometers"
+    }
+  }
+}
