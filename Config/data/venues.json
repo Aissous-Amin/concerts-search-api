@@ -1,0 +1,2258 @@
+[
+    {
+        "id": 1,
+        "name": "Sound Academy, Toronto, ON, Canada",
+        "latitude": 43.63967479999999,
+        "longitude": -79.3535794
+    },
+    {
+        "id": 2,
+        "name": "The Drake Hotel, Toronto, ON, Canada",
+        "latitude": 43.6432048,
+        "longitude": -79.42463769999999
+    },
+    {
+        "id": 3,
+        "name": "Majestic Ventura Theater, Los Angeles, CA, US",
+        "latitude": 34.2804242,
+        "longitude": -119.2914618
+    },
+    {
+        "id": 4,
+        "name": "Electric Ballroom, London, UK",
+        "latitude": 51.5396971,
+        "longitude": -0.1430325
+    },
+    {
+        "id": 5,
+        "name": "U Street Music Hall, Washington, DC, US",
+        "latitude": 38.9171386,
+        "longitude": -77.0276204
+    },
+    {
+        "id": 6,
+        "name": "Le Batofar, Paris, France",
+        "latitude": 48.83335,
+        "longitude": 2.3793886
+    },
+    {
+        "id": 7,
+        "name": "Howard Theatre, Washington, DC, US",
+        "latitude": 38.915254,
+        "longitude": -77.0211964
+    },
+    {
+        "id": 8,
+        "name": "WiZink Center - Palacio de Deportes de la Comunidad de Madrid, Madrid, Spain",
+        "latitude": 40.423876,
+        "longitude": -3.6717501
+    },
+    {
+        "id": 9,
+        "name": "Button Factory, Dublin, Ireland",
+        "latitude": 53.3449334,
+        "longitude": -6.2645228
+    },
+    {
+        "id": 10,
+        "name": "Vive Cuervo Salón, Mexico City, Mexico",
+        "latitude": 19.4432242,
+        "longitude": -99.20035469999999
+    },
+    {
+        "id": 11,
+        "name": "La Fourmi, Limoges, France",
+        "latitude": 45.85046639999999,
+        "longitude": 1.223815
+    },
+    {
+        "id": 12,
+        "name": "Pianos, New York, NY, US",
+        "latitude": 40.721025,
+        "longitude": -73.987692
+    },
+    {
+        "id": 13,
+        "name": "Qudos Bank Arena, Sydney, NSW, Australia",
+        "latitude": -33.8443038,
+        "longitude": 151.0620838
+    },
+    {
+        "id": 14,
+        "name": "Forest National / Vorst Nationaal, Brussels, Belgium",
+        "latitude": 50.8099282,
+        "longitude": 4.326107599999999
+    },
+    {
+        "id": 15,
+        "name": "Propaganda, Moscow, Russian Federation",
+        "latitude": 55.7586289,
+        "longitude": 37.6328588
+    },
+    {
+        "id": 16,
+        "name": "Klub RE, Krakow, Poland",
+        "latitude": 50.0609973,
+        "longitude": 19.9414372
+    },
+    {
+        "id": 17,
+        "name": "The Bell House, New York, NY, US",
+        "latitude": 40.67351,
+        "longitude": -73.991632
+    },
+    {
+        "id": 18,
+        "name": "Brooklyn Bowl, New York, NY, US",
+        "latitude": 40.7218813,
+        "longitude": -73.95739449999999
+    },
+    {
+        "id": 19,
+        "name": "Fremont Abbey Arts Center, Seattle, WA, US",
+        "latitude": 47.6591888,
+        "longitude": -122.3496822
+    },
+    {
+        "id": 20,
+        "name": "Lido, Berlin, Germany",
+        "latitude": 52.49917,
+        "longitude": 13.445
+    },
+    {
+        "id": 21,
+        "name": "Patinoire Meriadeck, Bordeaux, France",
+        "latitude": 44.835121,
+        "longitude": -0.5873993
+    },
+    {
+        "id": 22,
+        "name": "Rivoli, Toronto, ON, Canada",
+        "latitude": 43.64944970000001,
+        "longitude": -79.3949696
+    },
+    {
+        "id": 23,
+        "name": "Hamburger Börs, Stockholm, Sweden",
+        "latitude": 59.3305093,
+        "longitude": 18.0695431
+    },
+    {
+        "id": 24,
+        "name": "X-TRA, Zürich, Switzerland",
+        "latitude": 47.3841033,
+        "longitude": 8.5329633
+    },
+    {
+        "id": 25,
+        "name": "Muffathalle, Munich, Germany",
+        "latitude": 48.1329363,
+        "longitude": 11.5894601
+    },
+    {
+        "id": 26,
+        "name": "The Tabernacle, Atlanta, GA, US",
+        "latitude": 33.7586647,
+        "longitude": -84.3914487
+    },
+    {
+        "id": 27,
+        "name": "El Lokal, Zürich, Switzerland",
+        "latitude": 47.374641,
+        "longitude": 8.533891299999999
+    },
+    {
+        "id": 28,
+        "name": "3Arena, Dublin, Ireland",
+        "latitude": 53.3474963,
+        "longitude": -6.2285078
+    },
+    {
+        "id": 29,
+        "name": "Paramount Theatre, Oakland, CA, US",
+        "latitude": 37.8097055,
+        "longitude": -122.2682219
+    },
+    {
+        "id": 30,
+        "name": "Palace Theatre, Melbourne, VIC, Australia",
+        "latitude": -37.8673546,
+        "longitude": 144.976156
+    },
+    {
+        "id": 31,
+        "name": "KOKO, London, UK",
+        "latitude": 51.5347377,
+        "longitude": -0.1382573
+    },
+    {
+        "id": 32,
+        "name": "Sony Centre for the Performing Arts, Toronto, ON, Canada",
+        "latitude": 43.6466723,
+        "longitude": -79.3760205
+    },
+    {
+        "id": 33,
+        "name": "Eventim Apollo, London, UK",
+        "latitude": 51.4910136,
+        "longitude": -0.2246563
+    },
+    {
+        "id": 34,
+        "name": "Rock School Barbey, Bordeaux, France",
+        "latitude": 44.8269694,
+        "longitude": -0.5632283
+    },
+    {
+        "id": 35,
+        "name": "Constellation Room at the Observatory, Los Angeles, CA, US",
+        "latitude": 33.6997278,
+        "longitude": -117.9175687
+    },
+    {
+        "id": 36,
+        "name": "Royal Theatre Carré (Koninklijk Theater Carré), Amsterdam, Netherlands",
+        "latitude": 52.3623872,
+        "longitude": 4.9042637
+    },
+    {
+        "id": 37,
+        "name": "La Flèche d'Or, Paris, France",
+        "latitude": 48.859433,
+        "longitude": 2.402906
+    },
+    {
+        "id": 38,
+        "name": "NYCB Theatre at Westbury, New York, NY, US",
+        "latitude": 40.7733696,
+        "longitude": -73.5589498
+    },
+    {
+        "id": 39,
+        "name": "Black Cat, Washington, DC, US",
+        "latitude": 38.9145825,
+        "longitude": -77.0317283
+    },
+    {
+        "id": 40,
+        "name": "Init Roma, Rome, Italy",
+        "latitude": 41.8866738,
+        "longitude": 12.5249096
+    },
+    {
+        "id": 41,
+        "name": "The Windmill, Brixton, London, UK",
+        "latitude": 51.45395689999999,
+        "longitude": -0.122585
+    },
+    {
+        "id": 42,
+        "name": "Bootleg, Bordeaux, France",
+        "latitude": 44.8356873,
+        "longitude": -0.5832115
+    },
+    {
+        "id": 43,
+        "name": "Paradiso Grote Zaal, Amsterdam, Netherlands",
+        "latitude": 52.3621516,
+        "longitude": 4.883806499999999
+    },
+    {
+        "id": 44,
+        "name": "Metro Theatre, Sydney, NSW, Australia",
+        "latitude": -33.8756438,
+        "longitude": 151.2066562
+    },
+    {
+        "id": 45,
+        "name": "Voila, Mexico City, Mexico",
+        "latitude": 19.439386,
+        "longitude": -99.203794
+    },
+    {
+        "id": 46,
+        "name": "Palalottomatica, Rome, Italy",
+        "latitude": 41.8252534,
+        "longitude": 12.4665412
+    },
+    {
+        "id": 47,
+        "name": "Blidösunds Musik I Datumord., Stockholm, Sweden",
+        "latitude": 59.327014,
+        "longitude": 18.0754193
+    },
+    {
+        "id": 48,
+        "name": "Troubadour, Los Angeles, CA, US",
+        "latitude": 34.0816229,
+        "longitude": -118.3893577
+    },
+    {
+        "id": 49,
+        "name": "Academy 2, Dublin, Ireland",
+        "latitude": 53.347953,
+        "longitude": -6.261985
+    },
+    {
+        "id": 50,
+        "name": "Wurlitzer Ballroom, Madrid, Spain",
+        "latitude": 40.41972,
+        "longitude": -3.702493
+    },
+    {
+        "id": 51,
+        "name": "The Roxy Theatre, Los Angeles, CA, US",
+        "latitude": 34.0907813,
+        "longitude": -118.388035
+    },
+    {
+        "id": 52,
+        "name": "Opéra Théâtre, Limoges, France",
+        "latitude": 45.8322684,
+        "longitude": 1.2585895
+    },
+    {
+        "id": 53,
+        "name": "I.BOAT, Bordeaux, France",
+        "latitude": 44.8658875,
+        "longitude": -0.5590402999999999
+    },
+    {
+        "id": 54,
+        "name": "Stork Club, Oakland, CA, US",
+        "latitude": 37.8131387,
+        "longitude": -122.2683684
+    },
+    {
+        "id": 55,
+        "name": "Orion, Rome, Italy",
+        "latitude": 41.8099128,
+        "longitude": 12.5991784
+    },
+    {
+        "id": 56,
+        "name": "Circo Volador, Mexico City, Mexico",
+        "latitude": 19.4060255,
+        "longitude": -99.1256083
+    },
+    {
+        "id": 57,
+        "name": "Largo at the Coronet, Los Angeles, CA, US",
+        "latitude": 34.0778713,
+        "longitude": -118.3763218
+    },
+    {
+        "id": 58,
+        "name": "Budweiser Stage, Toronto, ON, Canada",
+        "latitude": 43.6292459,
+        "longitude": -79.4152393
+    },
+    {
+        "id": 59,
+        "name": "Proud Camden, London, UK",
+        "latitude": 51.5099821,
+        "longitude": -0.1180644
+    },
+    {
+        "id": 60,
+        "name": "The Earl, Atlanta, GA, US",
+        "latitude": 33.74098,
+        "longitude": -84.3459247
+    },
+    {
+        "id": 61,
+        "name": "Rockwood Music Hall, New York, NY, US",
+        "latitude": 40.7223045,
+        "longitude": -73.9885815
+    },
+    {
+        "id": 62,
+        "name": "Rote Fabrik, Zürich, Switzerland",
+        "latitude": 47.3429378,
+        "longitude": 8.5359445
+    },
+    {
+        "id": 63,
+        "name": "The Knitting Factory - TriBeCa, New York, NY, US",
+        "latitude": 40.7142193,
+        "longitude": -73.9558328
+    },
+    {
+        "id": 64,
+        "name": "Ippodromo Capannelle, Rome, Italy",
+        "latitude": 41.8240481,
+        "longitude": 12.5694535
+    },
+    {
+        "id": 65,
+        "name": "Joy Eslava, Madrid, Spain",
+        "latitude": 40.4171574,
+        "longitude": -3.7065622
+    },
+    {
+        "id": 66,
+        "name": "Rod Laver Arena, Melbourne, VIC, Australia",
+        "latitude": -37.8216833,
+        "longitude": 144.9785474
+    },
+    {
+        "id": 67,
+        "name": "Hill Country BBQ - Washington, Washington, DC, US",
+        "latitude": 38.8951909,
+        "longitude": -77.02223359999999
+    },
+    {
+        "id": 68,
+        "name": "Maria am Ufer, Berlin, Germany",
+        "latitude": 52.5102954,
+        "longitude": 13.4325372
+    },
+    {
+        "id": 69,
+        "name": "Atlanta Room, Smith's Olde Bar, Atlanta, GA, US",
+        "latitude": 33.797612,
+        "longitude": -84.36885199999999
+    },
+    {
+        "id": 70,
+        "name": "Paradiso, Amsterdam, Netherlands",
+        "latitude": 52.3621516,
+        "longitude": 4.883806499999999
+    },
+    {
+        "id": 71,
+        "name": "Quasimodo, Berlin, Germany",
+        "latitude": 52.505874,
+        "longitude": 13.3284827
+    },
+    {
+        "id": 72,
+        "name": "Saint Vitus, New York, NY, US",
+        "latitude": 40.7367758,
+        "longitude": -73.95513369999999
+    },
+    {
+        "id": 73,
+        "name": "Nasa, Reykjavík, Iceland",
+        "latitude": 64.1474946,
+        "longitude": -21.9404268
+    },
+    {
+        "id": 74,
+        "name": "BT59, Begles, France",
+        "latitude": 44.8132603,
+        "longitude": -0.5525287
+    },
+    {
+        "id": 75,
+        "name": "Mercury Lounge, New York, NY, US",
+        "latitude": 40.7221676,
+        "longitude": -73.9867459
+    },
+    {
+        "id": 76,
+        "name": "9:30 Club, Washington, DC, US",
+        "latitude": 38.9179969,
+        "longitude": -77.023692
+    },
+    {
+        "id": 77,
+        "name": "The Rockpile West, Toronto, ON, Canada",
+        "latitude": 43.6294203,
+        "longitude": -79.5489308
+    },
+    {
+        "id": 78,
+        "name": "Conga Lounge, Oakland, CA, US",
+        "latitude": 37.8407267,
+        "longitude": -122.2511948
+    },
+    {
+        "id": 79,
+        "name": "Northwell Health at Jones Beach Theater, New York, NY, US",
+        "latitude": 40.600814,
+        "longitude": -73.5020923
+    },
+    {
+        "id": 80,
+        "name": "The Hamilton Live, Washington, DC, US",
+        "latitude": 38.8976398,
+        "longitude": -77.03248529999999
+    },
+    {
+        "id": 81,
+        "name": "O2 Shepherd's Bush Empire, London, UK",
+        "latitude": 51.5034966,
+        "longitude": -0.2242238
+    },
+    {
+        "id": 82,
+        "name": "Fabryka, Krakow, Poland",
+        "latitude": 50.0495905,
+        "longitude": 19.9604791
+    },
+    {
+        "id": 83,
+        "name": "Paradiso Kleine Zaal, Amsterdam, Netherlands",
+        "latitude": 52.3621516,
+        "longitude": 4.883806499999999
+    },
+    {
+        "id": 84,
+        "name": "The New Parish, Oakland, CA, US",
+        "latitude": 37.8076318,
+        "longitude": -122.2725266
+    },
+    {
+        "id": 85,
+        "name": "Tochka Club, Moscow, Russian Federation",
+        "latitude": 55.72758589999999,
+        "longitude": 37.6060215
+    },
+    {
+        "id": 86,
+        "name": "Dk Gorbunova, Moscow, Russian Federation",
+        "latitude": 55.6817816,
+        "longitude": 37.51638850000001
+    },
+    {
+        "id": 87,
+        "name": "Sports Palace / Palacio de los Deportes, Mexico City, Mexico",
+        "latitude": 19.4053359,
+        "longitude": -99.09986459999999
+    },
+    {
+        "id": 88,
+        "name": "Nalen Klubb, Stockholm, Sweden",
+        "latitude": 59.33714219999999,
+        "longitude": 18.0676872
+    },
+    {
+        "id": 89,
+        "name": "The Masquerade, Atlanta, GA, US",
+        "latitude": 33.7515657,
+        "longitude": -84.3897963
+    },
+    {
+        "id": 90,
+        "name": "La Riviera, Madrid, Spain",
+        "latitude": 40.4129999,
+        "longitude": -3.7221514
+    },
+    {
+        "id": 91,
+        "name": "Velvet, Oakland, CA, US",
+        "latitude": 37.7536962,
+        "longitude": -122.4195844
+    },
+    {
+        "id": 92,
+        "name": "Huxleys Neue Welt, Berlin, Germany",
+        "latitude": 52.4863648,
+        "longitude": 13.4214874
+    },
+    {
+        "id": 93,
+        "name": "Eli's Mile High Club, Oakland, CA, US",
+        "latitude": 37.82578600000001,
+        "longitude": -122.269671
+    },
+    {
+        "id": 94,
+        "name": "The Tractor Tavern, Seattle, WA, US",
+        "latitude": 47.6657705,
+        "longitude": -122.3826454
+    },
+    {
+        "id": 95,
+        "name": "Paris Las Vegas, Las Vegas, NV, US",
+        "latitude": 36.1125414,
+        "longitude": -115.1706705
+    },
+    {
+        "id": 96,
+        "name": "Thousand Island (formerly Upstairs at The Garage), London, UK",
+        "latitude": 51.5467551,
+        "longitude": -0.1039389
+    },
+    {
+        "id": 97,
+        "name": "Smalls Jazz Club, New York, NY, US",
+        "latitude": 40.7343873,
+        "longitude": -74.002765
+    },
+    {
+        "id": 98,
+        "name": "Södra Teatern, Stockholm, Sweden",
+        "latitude": 59.318424,
+        "longitude": 18.074412
+    },
+    {
+        "id": 99,
+        "name": "Caradura, Mexico City, Mexico",
+        "latitude": 19.4127448,
+        "longitude": -99.1720175
+    },
+    {
+        "id": 100,
+        "name": "Gamli Gaukurinn, Reykjavík, Iceland",
+        "latitude": 64.1487171,
+        "longitude": -21.940199
+    },
+    {
+        "id": 101,
+        "name": "Centre Culturel John Lennon, Limoges, France",
+        "latitude": 45.8225128,
+        "longitude": 1.2859365
+    },
+    {
+        "id": 102,
+        "name": "Feierwerk / Kranhalle, Munich, Germany",
+        "latitude": 48.1293874,
+        "longitude": 11.5336483
+    },
+    {
+        "id": 103,
+        "name": "Twisted Pepper, Dublin, Ireland",
+        "latitude": 53.3480096,
+        "longitude": -6.262262199999999
+    },
+    {
+        "id": 104,
+        "name": "Cato's Ale House, Oakland, CA, US",
+        "latitude": 37.8249501,
+        "longitude": -122.2545726
+    },
+    {
+        "id": 105,
+        "name": "Irvine Meadows Amphitheatre, Los Angeles, CA, US",
+        "latitude": 34.1794169,
+        "longitude": -118.385617
+    },
+    {
+        "id": 106,
+        "name": "O.co Coliseum, Oakland, CA, US",
+        "latitude": 37.7515946,
+        "longitude": -122.2005458
+    },
+    {
+        "id": 107,
+        "name": "The Triple Door, Seattle, WA, US",
+        "latitude": 47.608704,
+        "longitude": -122.3374196
+    },
+    {
+        "id": 108,
+        "name": "Klub Studio, Krakow, Poland",
+        "latitude": 50.0680363,
+        "longitude": 19.9082967
+    },
+    {
+        "id": 109,
+        "name": "Scala, London, UK",
+        "latitude": 51.5308033,
+        "longitude": -0.1208059
+    },
+    {
+        "id": 110,
+        "name": "Zénith de Limoges, Limoges, France",
+        "latitude": 45.8622864,
+        "longitude": 1.27935
+    },
+    {
+        "id": 111,
+        "name": "Bitterzoet, Amsterdam, Netherlands",
+        "latitude": 52.37739200000001,
+        "longitude": 4.89413
+    },
+    {
+        "id": 112,
+        "name": "Hordern Pavilion, Sydney, NSW, Australia",
+        "latitude": -33.89422090000001,
+        "longitude": 151.2245216
+    },
+    {
+        "id": 113,
+        "name": "Mama Buzz Cafe, Oakland, CA, US",
+        "latitude": 37.8043514,
+        "longitude": -122.2711639
+    },
+    {
+        "id": 114,
+        "name": "Silk Road Restaurant & Lounge, Oakland, CA, US",
+        "latitude": 37.8999502,
+        "longitude": -122.0607754
+    },
+    {
+        "id": 115,
+        "name": "Le Rocher De Palmer, Cenon, France",
+        "latitude": 44.86233319999999,
+        "longitude": -0.5243182
+    },
+    {
+        "id": 116,
+        "name": "CBGB & OMFUG, New York, NY, US",
+        "latitude": 40.725175,
+        "longitude": -73.9918817
+    },
+    {
+        "id": 117,
+        "name": "Centre Culturel Jean Gagnant, Limoges, France",
+        "latitude": 45.8782298,
+        "longitude": 1.2891542
+    },
+    {
+        "id": 118,
+        "name": "Gramercy Theatre, New York, NY, US",
+        "latitude": 40.7397259,
+        "longitude": -73.98502909999999
+    },
+    {
+        "id": 119,
+        "name": "The Village, Dublin, Ireland",
+        "latitude": 53.3498053,
+        "longitude": -6.2603097
+    },
+    {
+        "id": 120,
+        "name": "Nasti, Madrid, Spain",
+        "latitude": 40.4257544,
+        "longitude": -3.7043747
+    },
+    {
+        "id": 121,
+        "name": "The Hi-Fi, Melbourne, VIC, Australia",
+        "latitude": -37.8129547,
+        "longitude": 144.9669759
+    },
+    {
+        "id": 122,
+        "name": "Knitting Factory, New York, NY, US",
+        "latitude": 40.7142193,
+        "longitude": -73.9558328
+    },
+    {
+        "id": 123,
+        "name": "Studio Paris, Chicago, IL, US",
+        "latitude": 41.889799,
+        "longitude": -87.630292
+    },
+    {
+        "id": 124,
+        "name": "Ampere, Munich, Germany",
+        "latitude": 48.1329363,
+        "longitude": 11.5894601
+    },
+    {
+        "id": 125,
+        "name": "ГЛАВCLUB GREEN CONCERT, Moscow, Russian Federation",
+        "latitude": 55.709601,
+        "longitude": 37.5944655
+    },
+    {
+        "id": 126,
+        "name": "Paramount Theatre, Seattle, WA, US",
+        "latitude": 47.613257,
+        "longitude": -122.331342
+    },
+    {
+        "id": 127,
+        "name": "Crocus City Hall, Moscow, Russian Federation",
+        "latitude": 55.82567239999999,
+        "longitude": 37.390153
+    },
+    {
+        "id": 128,
+        "name": "AFAS Live, Amsterdam, Netherlands",
+        "latitude": 52.3121046,
+        "longitude": 4.9445022
+    },
+    {
+        "id": 129,
+        "name": "Le Baiser Salé, Paris, France",
+        "latitude": 48.8598659,
+        "longitude": 2.347761
+    },
+    {
+        "id": 130,
+        "name": "Oakland Stadium, Oakland, CA, US",
+        "latitude": 37.7515946,
+        "longitude": -122.2005458
+    },
+    {
+        "id": 131,
+        "name": "Half Moon, Putney, London, UK",
+        "latitude": 51.4672964,
+        "longitude": -0.2201418
+    },
+    {
+        "id": 132,
+        "name": "Harpa, Reykjavík, Iceland",
+        "latitude": 64.1502464,
+        "longitude": -21.9322804
+    },
+    {
+        "id": 133,
+        "name": "Sunset/Sunside, Paris, France",
+        "latitude": 48.8599367,
+        "longitude": 2.347751
+    },
+    {
+        "id": 134,
+        "name": "Volta, Moscow, Russian Federation",
+        "latitude": 55.755826,
+        "longitude": 37.6172999
+    },
+    {
+        "id": 135,
+        "name": "La Maroquinerie, Paris, France",
+        "latitude": 48.8685078,
+        "longitude": 2.3920161
+    },
+    {
+        "id": 136,
+        "name": "Postbahnhof, Berlin, Germany",
+        "latitude": 52.50891069999999,
+        "longitude": 13.4364518
+    },
+    {
+        "id": 137,
+        "name": "Harpa Concert Hall, Reykjavík, Iceland",
+        "latitude": 64.1502464,
+        "longitude": -21.9322804
+    },
+    {
+        "id": 138,
+        "name": "Virgin Mobile Mod Club, Toronto, ON, Canada",
+        "latitude": 43.6588595,
+        "longitude": -79.3971175
+    },
+    {
+        "id": 139,
+        "name": "Echoplex, Los Angeles, CA, US",
+        "latitude": 34.0775934,
+        "longitude": -118.2605349
+    },
+    {
+        "id": 140,
+        "name": "Avalon, Los Angeles, CA, US",
+        "latitude": 34.1027414,
+        "longitude": -118.3272224
+    },
+    {
+        "id": 141,
+        "name": "Klub Gwarek, Krakow, Poland",
+        "latitude": 50.0658875,
+        "longitude": 19.9156862
+    },
+    {
+        "id": 142,
+        "name": "Grand Live at Venue Oakland, Oakland, CA, US",
+        "latitude": 37.8041767,
+        "longitude": -122.2704624
+    },
+    {
+        "id": 143,
+        "name": "Kex Hostel, Reykjavík, Iceland",
+        "latitude": 64.14542399999999,
+        "longitude": -21.919484
+    },
+    {
+        "id": 144,
+        "name": "The Underworld, London, UK",
+        "latitude": 51.5391728,
+        "longitude": -0.1420906
+    },
+    {
+        "id": 145,
+        "name": "Student Central (ULU), London, UK",
+        "latitude": 51.5226126,
+        "longitude": -0.1311254
+    },
+    {
+        "id": 146,
+        "name": "Stadium Live Club, Moscow, Russian Federation",
+        "latitude": 55.808108,
+        "longitude": 37.51081800000001
+    },
+    {
+        "id": 147,
+        "name": "The Vera Project, Seattle, WA, US",
+        "latitude": 47.62306419999999,
+        "longitude": -122.3538795
+    },
+    {
+        "id": 148,
+        "name": "Kägelbanan Södra Teatern, Stockholm, Sweden",
+        "latitude": 59.318424,
+        "longitude": 18.074412
+    },
+    {
+        "id": 149,
+        "name": "Mean Fiddler, London, UK",
+        "latitude": 51.5155949,
+        "longitude": -0.1302102
+    },
+    {
+        "id": 150,
+        "name": "Sala Caracol, Madrid, Spain",
+        "latitude": 40.4040133,
+        "longitude": -3.700034
+    },
+    {
+        "id": 151,
+        "name": "Uptown Nightclub, Oakland, CA, US",
+        "latitude": 37.8085876,
+        "longitude": -122.269635
+    },
+    {
+        "id": 152,
+        "name": "Massey Hall, Toronto, ON, Canada",
+        "latitude": 43.6539931,
+        "longitude": -79.37897799999999
+    },
+    {
+        "id": 153,
+        "name": "Cassiopeia, Berlin, Germany",
+        "latitude": 52.5072723,
+        "longitude": 13.4547926
+    },
+    {
+        "id": 154,
+        "name": "Club Oasis, Oakland, CA, US",
+        "latitude": 37.8085876,
+        "longitude": -122.269635
+    },
+    {
+        "id": 155,
+        "name": "The Lexington, London, UK",
+        "latitude": 51.5317299,
+        "longitude": -0.1114164
+    },
+    {
+        "id": 156,
+        "name": "Blue Note Jazz Club, New York, NY, US",
+        "latitude": 40.7308943,
+        "longitude": -74.00070300000002
+    },
+    {
+        "id": 157,
+        "name": "229, London, UK",
+        "latitude": 51.52365469999999,
+        "longitude": -0.144551
+    },
+    {
+        "id": 158,
+        "name": "16 Tons, Moscow, Russian Federation",
+        "latitude": 55.76430800000001,
+        "longitude": 37.564342
+    },
+    {
+        "id": 159,
+        "name": "Madison Square Garden, New York, NY, US",
+        "latitude": 40.7505045,
+        "longitude": -73.9934387
+    },
+    {
+        "id": 160,
+        "name": "Oakland Metro Operahouse, Oakland, CA, US",
+        "latitude": 37.7968292,
+        "longitude": -122.2779916
+    },
+    {
+        "id": 161,
+        "name": "Göta Källare, Stockholm, Sweden",
+        "latitude": 59.31430529999999,
+        "longitude": 18.0731533
+    },
+    {
+        "id": 162,
+        "name": "Espace El Doggo, Limoges, France",
+        "latitude": 45.82874899999999,
+        "longitude": 1.259494
+    },
+    {
+        "id": 163,
+        "name": "The Observatory, Los Angeles, CA, US",
+        "latitude": 34.1184341,
+        "longitude": -118.3003935
+    },
+    {
+        "id": 164,
+        "name": "Cirkus, Stockholm, Sweden",
+        "latitude": 59.32483990000001,
+        "longitude": 18.0997283
+    },
+    {
+        "id": 165,
+        "name": "Botanique, Brussels, Belgium",
+        "latitude": 50.85310579999999,
+        "longitude": 4.3662185
+    },
+    {
+        "id": 166,
+        "name": "Milk, Moscow, Russian Federatio",
+        "latitude": 55.755826,
+        "longitude": 37.6172999
+    },
+    {
+        "id": 167,
+        "name": "Kaufleuten, Zürich, Switzerland",
+        "latitude": 47.3716391,
+        "longitude": 8.5363625
+    },
+    {
+        "id": 168,
+        "name": "Academy, Dublin, Ireland",
+        "latitude": 53.3480297,
+        "longitude": -6.2619981
+    },
+    {
+        "id": 169,
+        "name": "Bizz'art, Paris, France",
+        "latitude": 48.8790781,
+        "longitude": 2.3664324
+    },
+    {
+        "id": 170,
+        "name": "PlayStation Theater, New York, NY, US",
+        "latitude": 40.7576573,
+        "longitude": -73.98630849999999
+    },
+    {
+        "id": 171,
+        "name": "Dynamo, Zürich, Switzerland",
+        "latitude": 47.383401,
+        "longitude": 8.5393821
+    },
+    {
+        "id": 172,
+        "name": "Highline, Seattle, WA, US",
+        "latitude": 47.6202913,
+        "longitude": -122.3206564
+    },
+    {
+        "id": 173,
+        "name": "K17, Berlin, Germany",
+        "latitude": 52.5183113,
+        "longitude": 13.4717676
+    },
+    {
+        "id": 174,
+        "name": "El Mocambo, Toronto, ON, Canada",
+        "latitude": 43.6575792,
+        "longitude": -79.4002035
+    },
+    {
+        "id": 175,
+        "name": "Rome, Italy, Rome, Italy",
+        "latitude": 41.9027835,
+        "longitude": 12.4963655
+    },
+    {
+        "id": 176,
+        "name": "Feierwerk / Hansa 39, Munich, Germany",
+        "latitude": 48.1291971,
+        "longitude": 11.533535
+    },
+    {
+        "id": 177,
+        "name": "Traffic Club, Rome, Italy",
+        "latitude": 41.89346159999999,
+        "longitude": 12.5880515
+    },
+    {
+        "id": 178,
+        "name": "Debaser Slussen, Stockholm, Sweden",
+        "latitude": 59.3146406,
+        "longitude": 18.0318701
+    },
+    {
+        "id": 179,
+        "name": "The Monarch, London, UK",
+        "latitude": 51.5428986,
+        "longitude": -0.1484606
+    },
+    {
+        "id": 180,
+        "name": "Chop Suey, Seattle, WA, US",
+        "latitude": 47.613694,
+        "longitude": -122.3144219
+    },
+    {
+        "id": 181,
+        "name": "Madame JoJo's, London, UK",
+        "latitude": 51.5124934,
+        "longitude": -0.1338545
+    },
+    {
+        "id": 182,
+        "name": "Sugarfactory, Amsterdam, Netherlands",
+        "latitude": 52.3648259,
+        "longitude": 4.8818572
+    },
+    {
+        "id": 183,
+        "name": "Taboó, Madrid, Spain",
+        "latitude": 40.4256495,
+        "longitude": -3.7031325
+    },
+    {
+        "id": 184,
+        "name": "The Dragonfly, Los Angeles, CA, US",
+        "latitude": 34.0360136,
+        "longitude": -118.2331568
+    },
+    {
+        "id": 185,
+        "name": "The Workman's Club, Dublin, Ireland",
+        "latitude": 53.3453465,
+        "longitude": -6.2664073
+    },
+    {
+        "id": 186,
+        "name": "Leo's, Oakland, CA, US",
+        "latitude": 37.7940232,
+        "longitude": -122.4025277
+    },
+    {
+        "id": 187,
+        "name": "Whisky A Go Go, Los Angeles, CA, US",
+        "latitude": 34.09084800000001,
+        "longitude": -118.3857624
+    },
+    {
+        "id": 188,
+        "name": "Tripod, Dublin, Ireland",
+        "latitude": 53.3402429,
+        "longitude": -6.2608726
+    },
+    {
+        "id": 189,
+        "name": "Krakatoa, Mérignac, France",
+        "latitude": 44.8236711,
+        "longitude": -0.6246824999999999
+    },
+    {
+        "id": 190,
+        "name": "The Bowery Ballroom, New York, NY, US",
+        "latitude": 40.72041249999999,
+        "longitude": -73.9933561
+    },
+    {
+        "id": 191,
+        "name": "Atelier 210, Brussels, Belgium",
+        "latitude": 50.8371398,
+        "longitude": 4.3915679
+    },
+    {
+        "id": 192,
+        "name": "SO36, Berlin, Germany",
+        "latitude": 52.5003921,
+        "longitude": 13.4221018
+    },
+    {
+        "id": 193,
+        "name": "Kwadrat, Krakow, Poland",
+        "latitude": 50.0838472,
+        "longitude": 19.9961303
+    },
+    {
+        "id": 194,
+        "name": "Astoria, London, UK",
+        "latitude": 51.5162105,
+        "longitude": -0.1713663
+    },
+    {
+        "id": 195,
+        "name": "Sala Arena, Madrid, Spain",
+        "latitude": 40.42496269999999,
+        "longitude": -3.71255
+    },
+    {
+        "id": 196,
+        "name": "Fasching, Stockholm, Sweden",
+        "latitude": 59.3334194,
+        "longitude": 18.0557475
+    },
+    {
+        "id": 197,
+        "name": "Café De Paris, London, UK",
+        "latitude": 51.5104608,
+        "longitude": -0.1318824
+    },
+    {
+        "id": 198,
+        "name": "The Night Light, Oakland, CA, US",
+        "latitude": 37.797135,
+        "longitude": -122.275913
+    },
+    {
+        "id": 199,
+        "name": "The Opera House, Toronto, ON, Canada",
+        "latitude": 43.65900360000001,
+        "longitude": -79.3488025
+    },
+    {
+        "id": 200,
+        "name": "Musik & Frieden, Berlin, Germany",
+        "latitude": 52.5007405,
+        "longitude": 13.4449256
+    },
+    {
+        "id": 201,
+        "name": "Dingwalls, London, UK",
+        "latitude": 51.5412634,
+        "longitude": -0.1456486
+    },
+    {
+        "id": 202,
+        "name": "B.B. King Blues Club & Grill, New York, NY, US",
+        "latitude": 40.7568984,
+        "longitude": -73.98846139999999
+    },
+    {
+        "id": 203,
+        "name": "Vicar Street, Dublin, Ireland",
+        "latitude": 53.3426072,
+        "longitude": -6.2779827
+    },
+    {
+        "id": 204,
+        "name": "Ziczinc, Limoges, France",
+        "latitude": 45.8306232,
+        "longitude": 1.2551891
+    },
+    {
+        "id": 205,
+        "name": "Birdland, New York, NY, US",
+        "latitude": 40.7589663,
+        "longitude": -73.98961729999999
+    },
+    {
+        "id": 206,
+        "name": "The Garrison, Toronto, ON, Canada",
+        "latitude": 43.6492659,
+        "longitude": -79.42233209999999
+    },
+    {
+        "id": 207,
+        "name": "The Loft, Atlanta, GA, US",
+        "latitude": 33.7920301,
+        "longitude": -84.387928
+    },
+    {
+        "id": 208,
+        "name": "Center Stage Theater, Atlanta, GA, US",
+        "latitude": 33.7921622,
+        "longitude": -84.3882896
+    },
+    {
+        "id": 209,
+        "name": "Music Hall of Williamsburg, New York, NY, US",
+        "latitude": 40.7191281,
+        "longitude": -73.9617399
+    },
+    {
+        "id": 210,
+        "name": "The O2, Dublin, Ireland",
+        "latitude": 53.3474963,
+        "longitude": -6.2285078
+    },
+    {
+        "id": 211,
+        "name": "Venue Oakland, Oakland, CA, US",
+        "latitude": 37.8041767,
+        "longitude": -122.2704624
+    },
+    {
+        "id": 212,
+        "name": "The Crocodile, Seattle, WA, US",
+        "latitude": 47.6136087,
+        "longitude": -122.3442873
+    },
+    {
+        "id": 213,
+        "name": "Lee's Palace, Toronto, ON, Canada",
+        "latitude": 43.6653396,
+        "longitude": -79.4094732
+    },
+    {
+        "id": 214,
+        "name": "Iridium, New York, NY, US",
+        "latitude": 40.761896,
+        "longitude": -73.983525
+    },
+    {
+        "id": 215,
+        "name": "L'Entrepôt, Paris, France",
+        "latitude": 48.83397189999999,
+        "longitude": 2.3165548
+    },
+    {
+        "id": 216,
+        "name": "Atlantico, Rome, Italy",
+        "latitude": 41.8171893,
+        "longitude": 12.4629842
+    },
+    {
+        "id": 217,
+        "name": "Air Canada Centre, Toronto, ON, Canada",
+        "latitude": 43.6434661,
+        "longitude": -79.3790989
+    },
+    {
+        "id": 218,
+        "name": "Underbelly Hoxton, London, UK",
+        "latitude": 51.5280281,
+        "longitude": -0.0817924
+    },
+    {
+        "id": 219,
+        "name": "Oracle Arena, Oakland, CA, US",
+        "latitude": 37.7503024,
+        "longitude": -122.2029607
+    },
+    {
+        "id": 220,
+        "name": "El Plaza Condesa, Mexico City, Mexico",
+        "latitude": 19.4132032,
+        "longitude": -99.1719516
+    },
+    {
+        "id": 221,
+        "name": "Feierwerk / Orangehouse, Munich, Germany",
+        "latitude": 48.1280689,
+        "longitude": 11.5351389
+    },
+    {
+        "id": 222,
+        "name": "Yoshi's Jazz Club, Oakland, Oakland, CA, US",
+        "latitude": 37.796237,
+        "longitude": -122.2785532
+    },
+    {
+        "id": 223,
+        "name": "Cameo Gallery, New York, NY, US",
+        "latitude": 40.7296059,
+        "longitude": -73.985124
+    },
+    {
+        "id": 224,
+        "name": "The Comet Tavern, Seattle, WA, US",
+        "latitude": 47.614213,
+        "longitude": -122.3197621
+    },
+    {
+        "id": 225,
+        "name": "The Basement, Sydney, NSW, Australia",
+        "latitude": -33.86283,
+        "longitude": 151.209916
+    },
+    {
+        "id": 226,
+        "name": "Festsaal Kreuzberg, Berlin, Germany",
+        "latitude": 52.4967039,
+        "longitude": 13.4515843
+    },
+    {
+        "id": 227,
+        "name": "Kawiarnia Naukowa, Krakow, Poland",
+        "latitude": 50.040057,
+        "longitude": 19.942099
+    },
+    {
+        "id": 228,
+        "name": "Forum Theatre, Melbourne, VIC, Australia",
+        "latitude": -37.8165405,
+        "longitude": 144.9693851
+    },
+    {
+        "id": 229,
+        "name": "Sunset Tavern, Seattle, WA, US",
+        "latitude": 47.6681134,
+        "longitude": -122.3859886
+    },
+    {
+        "id": 230,
+        "name": "The Water Rats, London, UK",
+        "latitude": 51.5290022,
+        "longitude": -0.1195748
+    },
+    {
+        "id": 231,
+        "name": "High Dive, Seattle, WA, US",
+        "latitude": 47.6514909,
+        "longitude": -122.351738
+    },
+    {
+        "id": 232,
+        "name": "Ray Just Arena, Moscow, Russian Federation",
+        "latitude": 55.7847281,
+        "longitude": 37.5601552
+    },
+    {
+        "id": 233,
+        "name": "Gypsy Sally's, Washington, DC, US",
+        "latitude": 38.904095,
+        "longitude": -77.067877
+    },
+    {
+        "id": 234,
+        "name": "Debaser Strand, Stockholm, Sweden",
+        "latitude": 59.3146406,
+        "longitude": 18.0318701
+    },
+    {
+        "id": 235,
+        "name": "Gibson Amphitheatre, Universal Studios Hollywood, Los Angeles, CA, US",
+        "latitude": 34.13811680000001,
+        "longitude": -118.3533783
+    },
+    {
+        "id": 236,
+        "name": "Vinyl, Atlanta, GA, US",
+        "latitude": 33.7921298,
+        "longitude": -84.3879271
+    },
+    {
+        "id": 237,
+        "name": "The Nest, London, UK",
+        "latitude": 51.55169249999999,
+        "longitude": -0.07480139999999999
+    },
+    {
+        "id": 238,
+        "name": "White Horse Inn, Oakland, CA, US",
+        "latitude": 37.8518337,
+        "longitude": -122.260638
+    },
+    {
+        "id": 239,
+        "name": "Hill Country BBQ - New York, New York, NY, US",
+        "latitude": 40.7441558,
+        "longitude": -73.9904866
+    },
+    {
+        "id": 240,
+        "name": "Alchemia, Krakow, Poland",
+        "latitude": 50.052196,
+        "longitude": 19.9449854
+    },
+    {
+        "id": 241,
+        "name": "The Showbox, Seattle, WA, US",
+        "latitude": 47.6085565,
+        "longitude": -122.3393269
+    },
+    {
+        "id": 242,
+        "name": "Exil, Zürich, Switzerland",
+        "latitude": 47.38830369999999,
+        "longitude": 8.5193197
+    },
+    {
+        "id": 243,
+        "name": "Velvet Lounge, Washington, DC, US",
+        "latitude": 38.9171963,
+        "longitude": -77.02470459999999
+    },
+    {
+        "id": 244,
+        "name": "O2 Academy Brixton, London, UK",
+        "latitude": 51.4656337,
+        "longitude": -0.1149728
+    },
+    {
+        "id": 245,
+        "name": "Marquee Club - Wardour Street, London, UK",
+        "latitude": 51.51421269999999,
+        "longitude": -0.133794
+    },
+    {
+        "id": 246,
+        "name": "Feierwerk / Sunny Red, Munich, Germany",
+        "latitude": 48.128457,
+        "longitude": 11.5348346
+    },
+    {
+        "id": 247,
+        "name": "The Grand Social, Dublin, Ireland",
+        "latitude": 53.3469012,
+        "longitude": -6.2634767
+    },
+    {
+        "id": 248,
+        "name": "Queen Club Paris, Paris, France",
+        "latitude": 48.8624029,
+        "longitude": 2.3539228
+    },
+    {
+        "id": 249,
+        "name": "Fryshuset, Stockholm, Sweden",
+        "latitude": 59.3009661,
+        "longitude": 18.0889937
+    },
+    {
+        "id": 250,
+        "name": "Phoenix Concert Theatre, Toronto, ON, Canada",
+        "latitude": 43.6646703,
+        "longitude": -79.3739398
+    },
+    {
+        "id": 251,
+        "name": "Fat Crow, Mexico City, Mexico",
+        "latitude": 19.4395348,
+        "longitude": -99.20373800000002
+    },
+    {
+        "id": 252,
+        "name": "Canyon Club, Los Angeles, CA, US",
+        "latitude": 34.144004,
+        "longitude": -118.7551541
+    },
+    {
+        "id": 253,
+        "name": "Berns Salonger, Stockholm, Sweden",
+        "latitude": 59.3322436,
+        "longitude": 18.0733643
+    },
+    {
+        "id": 254,
+        "name": "Electrowerkz, London, UK",
+        "latitude": 51.5325178,
+        "longitude": -0.1050021
+    },
+    {
+        "id": 255,
+        "name": "Filadelfiakyrkan, Stockholm, Sweden",
+        "latitude": 59.33938629999999,
+        "longitude": 18.0344214
+    },
+    {
+        "id": 256,
+        "name": "The Slidebar Rock-n-Roll Kitchen, Los Angeles, CA, US",
+        "latitude": 33.8700811,
+        "longitude": -117.9232018
+    },
+    {
+        "id": 257,
+        "name": "Whelan's, Dublin, Ireland",
+        "latitude": 53.33658,
+        "longitude": -6.265715
+    },
+    {
+        "id": 258,
+        "name": "Point Ephémère, Paris, France",
+        "latitude": 48.8814422,
+        "longitude": 2.3684356
+    },
+    {
+        "id": 259,
+        "name": "Södra Teaterns Stora Scen, Stockholm, Sweden",
+        "latitude": 59.318424,
+        "longitude": 18.074412
+    },
+    {
+        "id": 260,
+        "name": "The Porterhouse, Dublin, Ireland",
+        "latitude": 53.3450877,
+        "longitude": -6.2674185
+    },
+    {
+        "id": 261,
+        "name": "DC9 Nightclub, Washington, DC, US",
+        "latitude": 38.916708,
+        "longitude": -77.024142
+    },
+    {
+        "id": 262,
+        "name": "The Loft, The Chance Theater, New York, NY, US",
+        "latitude": 41.7028034,
+        "longitude": -73.92435449999999
+    },
+    {
+        "id": 263,
+        "name": "Laugardalsholl, Reykjavík, Iceland",
+        "latitude": 64.14018519999999,
+        "longitude": -21.8767213
+    },
+    {
+        "id": 264,
+        "name": "Roundhouse, London, UK",
+        "latitude": 51.5432454,
+        "longitude": -0.151926
+    },
+    {
+        "id": 265,
+        "name": "New Morning, Paris, France",
+        "latitude": 48.8730851,
+        "longitude": 2.3533545
+    },
+    {
+        "id": 266,
+        "name": "Casino De Paris, Paris, France",
+        "latitude": 48.87831480000001,
+        "longitude": 2.3301076
+    },
+    {
+        "id": 267,
+        "name": "Freiheiz, Munich, Germany",
+        "latitude": 48.1438873,
+        "longitude": 11.5367119
+    },
+    {
+        "id": 268,
+        "name": "Fonda Theatre, Los Angeles, CA, US",
+        "latitude": 34.101486,
+        "longitude": -118.3232871
+    },
+    {
+        "id": 269,
+        "name": "The Sound Room, Oakland, CA, US",
+        "latitude": 37.8108665,
+        "longitude": -122.2673276
+    },
+    {
+        "id": 270,
+        "name": "Teater Pero, Stockholm, Sweden",
+        "latitude": 59.3438155,
+        "longitude": 18.0560574
+    },
+    {
+        "id": 271,
+        "name": "Melkweg Oude Zaal, Amsterdam, Netherlands",
+        "latitude": 52.364786,
+        "longitude": 4.8812489
+    },
+    {
+        "id": 272,
+        "name": "The Funhouse, Seattle, WA, US",
+        "latitude": 47.6186326,
+        "longitude": -122.3293811
+    },
+    {
+        "id": 273,
+        "name": "NBI Club, Berlin, Germany",
+        "latitude": 52.535676,
+        "longitude": 13.401146
+    },
+    {
+        "id": 274,
+        "name": "Oakland Auditorium, Oakland, CA, US",
+        "latitude": 37.7976288,
+        "longitude": -122.2615781
+    },
+    {
+        "id": 275,
+        "name": "El Cid, Los Angeles, CA, US",
+        "latitude": 34.093836,
+        "longitude": -118.2824171
+    },
+    {
+        "id": 276,
+        "name": "Warehouse, Toronto, ON, Canada",
+        "latitude": 43.6501841,
+        "longitude": -79.3900334
+    },
+    {
+        "id": 277,
+        "name": "Irving Plaza, New York, NY, US",
+        "latitude": 40.734929,
+        "longitude": -73.988448
+    },
+    {
+        "id": 278,
+        "name": "Oakland Metro Operahouse - Old Location, Oakland, CA, US",
+        "latitude": 37.7968292,
+        "longitude": -122.2779916
+    },
+    {
+        "id": 279,
+        "name": "C-Club, Berlin, Germany",
+        "latitude": 52.484733,
+        "longitude": 13.391426
+    },
+    {
+        "id": 280,
+        "name": "The Airliner, Los Angeles, CA, US",
+        "latitude": 34.0738477,
+        "longitude": -118.2162662
+    },
+    {
+        "id": 281,
+        "name": "Ericsson Globe Arena, Stockholm, Sweden",
+        "latitude": 59.2935725,
+        "longitude": 18.0835501
+    },
+    {
+        "id": 282,
+        "name": "Nijdrop, Brussels, Belgium",
+        "latitude": 50.96736749999999,
+        "longitude": 4.1867231
+    },
+    {
+        "id": 283,
+        "name": "Zénith de Paris, Paris, France",
+        "latitude": 48.89420459999999,
+        "longitude": 2.3932285
+    },
+    {
+        "id": 284,
+        "name": "Moods, Zürich, Switzerland",
+        "latitude": 47.38867579999999,
+        "longitude": 8.5195746
+    },
+    {
+        "id": 285,
+        "name": "Trouw, Amsterdam, Netherlands",
+        "latitude": 52.35438569999999,
+        "longitude": 4.9127382
+    },
+    {
+        "id": 286,
+        "name": "Upstairs at Whelan's, Dublin, Ireland",
+        "latitude": 53.33658,
+        "longitude": -6.265715
+    },
+    {
+        "id": 287,
+        "name": "Astra Kulturhaus, Berlin, Germany",
+        "latitude": 52.507242,
+        "longitude": 13.451803
+    },
+    {
+        "id": 288,
+        "name": "Fox Theater, Oakland, CA, US",
+        "latitude": 37.8080182,
+        "longitude": -122.2702232
+    },
+    {
+        "id": 289,
+        "name": "Ancienne Belgique (AB), Brussels, Belgium",
+        "latitude": 50.8472409,
+        "longitude": 4.3488349
+    },
+    {
+        "id": 290,
+        "name": "Ambassador Theatre, Dublin, Ireland",
+        "latitude": 53.352914,
+        "longitude": -6.262148
+    },
+    {
+        "id": 291,
+        "name": "Cellairis Amphitheatre at Lakewood, Atlanta, GA, US",
+        "latitude": 33.7035457,
+        "longitude": -84.3969975
+    },
+    {
+        "id": 292,
+        "name": "Lunario del Auditorio Nacional, Mexico City, Mexico",
+        "latitude": 19.4246215,
+        "longitude": -99.1954026
+    },
+    {
+        "id": 293,
+        "name": "Hallenstadion, Zürich, Switzerland",
+        "latitude": 47.4112203,
+        "longitude": 8.5516946
+    },
+    {
+        "id": 294,
+        "name": "Nouveau Casino, Paris, France",
+        "latitude": 48.86587129999999,
+        "longitude": 2.3778975
+    },
+    {
+        "id": 295,
+        "name": "Moby Dick Club, Madrid, Spain",
+        "latitude": 40.4544885,
+        "longitude": -3.6939718
+    },
+    {
+        "id": 296,
+        "name": "Iceland Airwaves, Reykjavík, Iceland",
+        "latitude": 64.1302436,
+        "longitude": -21.8715941
+    },
+    {
+        "id": 297,
+        "name": "Pacha NYC, New York, NY, US",
+        "latitude": 40.763589,
+        "longitude": -73.99760630000002
+    },
+    {
+        "id": 298,
+        "name": "Studio Seven, Seattle, WA, US",
+        "latitude": 47.5744675,
+        "longitude": -122.3334938
+    },
+    {
+        "id": 299,
+        "name": "Volkshaus, Zürich, Switzerland",
+        "latitude": 47.3755946,
+        "longitude": 8.527130699999999
+    },
+    {
+        "id": 300,
+        "name": "Húrra, Reykjavík, Iceland",
+        "latitude": 64.14865569999999,
+        "longitude": -21.9402773
+    },
+    {
+        "id": 301,
+        "name": "Royal Circus (Cirque Royal/Koninklijk Circus), Brussels, Belgium",
+        "latitude": 50.8488477,
+        "longitude": 4.366031599999999
+    },
+    {
+        "id": 302,
+        "name": "Botanique - Rotonde, Brussels, Belgium",
+        "latitude": 50.8546778,
+        "longitude": 4.3661713
+    },
+    {
+        "id": 303,
+        "name": "Le Centquatre-Paris (104), Paris, France",
+        "latitude": 48.8899821,
+        "longitude": 2.3714338
+    },
+    {
+        "id": 304,
+        "name": "Oakland Museum of California, Oakland, CA, US",
+        "latitude": 37.7986414,
+        "longitude": -122.2636106
+    },
+    {
+        "id": 305,
+        "name": "The Social, London, UK",
+        "latitude": 51.5173006,
+        "longitude": -0.1407693
+    },
+    {
+        "id": 306,
+        "name": "The Forum, Los Angeles, CA, US",
+        "latitude": 33.9582109,
+        "longitude": -118.3419015
+    },
+    {
+        "id": 307,
+        "name": "Neumos Crystal Ball Reading Room, Seattle, WA, US",
+        "latitude": 47.613938,
+        "longitude": -122.3196199
+    },
+    {
+        "id": 308,
+        "name": "The Sugar Club, Dublin, Ireland",
+        "latitude": 53.3355007,
+        "longitude": -6.2566432
+    },
+    {
+        "id": 309,
+        "name": "Médoquine, Talence, France",
+        "latitude": 44.8189984,
+        "longitude": -0.5982263999999999
+    },
+    {
+        "id": 310,
+        "name": "Club Anton, Oakland, CA, US",
+        "latitude": 37.7967999,
+        "longitude": -122.2754412
+    },
+    {
+        "id": 311,
+        "name": "Rodeo Bar, New York, NY, US",
+        "latitude": 40.741352,
+        "longitude": -73.9810158
+    },
+    {
+        "id": 312,
+        "name": "Brixton Jamm, London, UK",
+        "latitude": 51.4707411,
+        "longitude": -0.1119841
+    },
+    {
+        "id": 313,
+        "name": "Le Phare, Limoges, France",
+        "latitude": 45.828512,
+        "longitude": 1.256449
+    },
+    {
+        "id": 314,
+        "name": "Cafe Rosenberg, Reykjavík, Iceland",
+        "latitude": 64.14613489999999,
+        "longitude": -21.9287967
+    },
+    {
+        "id": 315,
+        "name": "Dimitriou's Jazz Alley, Seattle, WA, US",
+        "latitude": 47.6148694,
+        "longitude": -122.3395575
+    },
+    {
+        "id": 316,
+        "name": "Annexet, Stockholm, Sweden",
+        "latitude": 59.2938854,
+        "longitude": 18.0811625
+    },
+    {
+        "id": 317,
+        "name": "Kool Haus, Toronto, ON, Canada",
+        "latitude": 43.6445255,
+        "longitude": -79.3685601
+    },
+    {
+        "id": 318,
+        "name": "Skylark Cafe & Club, Seattle, WA, US",
+        "latitude": 47.5699785,
+        "longitude": -122.3625085
+    },
+    {
+        "id": 319,
+        "name": "Maple Leaf Gardens, Toronto, ON, Canada",
+        "latitude": 43.6621838,
+        "longitude": -79.38033089999999
+    },
+    {
+        "id": 320,
+        "name": "Rock & Roll Hotel, Washington, DC, US",
+        "latitude": 38.899994,
+        "longitude": -76.986572
+    },
+    {
+        "id": 321,
+        "name": "Rotunda, Krakow, Poland",
+        "latitude": 50.0601469,
+        "longitude": 19.9212931
+    },
+    {
+        "id": 322,
+        "name": "Jazzclub Unterfahrt, Munich, Germany",
+        "latitude": 48.1354891,
+        "longitude": 11.6005464
+    },
+    {
+        "id": 323,
+        "name": "Oakland City Center, Oakland, CA, US",
+        "latitude": 37.8034662,
+        "longitude": -122.2716016
+    },
+    {
+        "id": 324,
+        "name": "Horseshoe Tavern, Toronto, ON, Canada",
+        "latitude": 43.6490702,
+        "longitude": -79.3958951
+    },
+    {
+        "id": 325,
+        "name": "Schokoladen, Berlin, Germany",
+        "latitude": 52.52977689999999,
+        "longitude": 13.3971137
+    },
+    {
+        "id": 326,
+        "name": "Webster Hall, New York, NY, US",
+        "latitude": 40.7317767,
+        "longitude": -73.9891566
+    },
+    {
+        "id": 327,
+        "name": "Klub Zascianek, Krakow, Poland",
+        "latitude": 50.0680049,
+        "longitude": 19.9054576
+    },
+    {
+        "id": 328,
+        "name": "Gröna Lund, Stockholm, Sweden",
+        "latitude": 59.32335639999999,
+        "longitude": 18.0963901
+    },
+    {
+        "id": 329,
+        "name": "Complex Oakland, Oakland, CA, US",
+        "latitude": 37.8042683,
+        "longitude": -122.270321
+    },
+    {
+        "id": 330,
+        "name": "O2 Forum Kentish Town, London, UK",
+        "latitude": 51.55219700000001,
+        "longitude": -0.141969
+    },
+    {
+        "id": 331,
+        "name": "Olympia Theatre, Dublin, Ireland",
+        "latitude": 53.3443127,
+        "longitude": -6.2660797
+    },
+    {
+        "id": 332,
+        "name": "Haus der Kulturen der Welt, Berlin, Germany",
+        "latitude": 52.51890849999999,
+        "longitude": 13.3649115
+    },
+    {
+        "id": 333,
+        "name": "Danforth Music Hall, Toronto, ON, Canada",
+        "latitude": 43.6762351,
+        "longitude": -79.3570038
+    },
+    {
+        "id": 334,
+        "name": "Cavea, Auditorium Parco della Musica, Rome, Italy",
+        "latitude": 41.9288906,
+        "longitude": 12.4748367
+    },
+    {
+        "id": 335,
+        "name": "O2 Academy Islington, London, UK",
+        "latitude": 51.5343501,
+        "longitude": -0.1058837
+    },
+    {
+        "id": 336,
+        "name": "Eddie's Attic, Atlanta, GA, US",
+        "latitude": 33.7739746,
+        "longitude": -84.2962715
+    },
+    {
+        "id": 337,
+        "name": "Privatclub, Berlin, Germany",
+        "latitude": 52.50016,
+        "longitude": 13.4351403
+    },
+    {
+        "id": 338,
+        "name": "The Point Theatre, Dublin, Ireland",
+        "latitude": 53.3474963,
+        "longitude": -6.2285078
+    },
+    {
+        "id": 339,
+        "name": "Fuse, Brussels, Belgium",
+        "latitude": 50.835332,
+        "longitude": 4.344856
+    },
+    {
+        "id": 340,
+        "name": "Circolo degli Artisti, Rome, Italy",
+        "latitude": 41.8873465,
+        "longitude": 12.5237753
+    },
+    {
+        "id": 341,
+        "name": "L'Olympia, Paris, France",
+        "latitude": 48.8702193,
+        "longitude": 2.3283335
+    },
+    {
+        "id": 342,
+        "name": "Backstage, Munich, Germany",
+        "latitude": 48.1451445,
+        "longitude": 11.5217969
+    },
+    {
+        "id": 343,
+        "name": "Teaterverket, Stockholm, Sweden",
+        "latitude": 59.341637,
+        "longitude": 18.0481243
+    },
+    {
+        "id": 344,
+        "name": "The Satellite, Los Angeles, CA, US",
+        "latitude": 34.089872,
+        "longitude": -118.2682879
+    },
+    {
+        "id": 345,
+        "name": "Maschinenhaus i.d. KulturBrauerei, Berlin, Germany",
+        "latitude": 52.5393856,
+        "longitude": 13.4137106
+    },
+    {
+        "id": 346,
+        "name": "Barboza, Seattle, WA, US",
+        "latitude": 47.61381100000001,
+        "longitude": -122.319664
+    },
+    {
+        "id": 347,
+        "name": "De Vaartkapoen (VK), Brussels, Belgium",
+        "latitude": 50.84757380000001,
+        "longitude": 4.3286405
+    },
+    {
+        "id": 348,
+        "name": "Hive, Zürich, Switzerland",
+        "latitude": 47.3849522,
+        "longitude": 8.520216699999999
+    },
+    {
+        "id": 349,
+        "name": "Melkweg, Amsterdam, Netherlands",
+        "latitude": 52.364786,
+        "longitude": 4.8812489
+    },
+    {
+        "id": 350,
+        "name": "Philharmonie De Paris, Paris, France",
+        "latitude": 48.8917605,
+        "longitude": 2.3941945
+    },
+    {
+        "id": 351,
+        "name": "Debaser Medis, Stockholm, Sweden",
+        "latitude": 59.3146406,
+        "longitude": 18.0318701
+    },
+    {
+        "id": 352,
+        "name": "Bercy Arena, Paris, France",
+        "latitude": 48.8385379,
+        "longitude": 2.3785842
+    },
+    {
+        "id": 353,
+        "name": "Azuli, Bordeaux, France",
+        "latitude": 44.8378578,
+        "longitude": -0.5715553
+    },
+    {
+        "id": 354,
+        "name": "Columbiahalle, Berlin, Germany",
+        "latitude": 52.4845106,
+        "longitude": 13.392469
+    },
+    {
+        "id": 355,
+        "name": "The Garage, London, UK",
+        "latitude": 51.5467551,
+        "longitude": -0.1039389
+    },
+    {
+        "id": 356,
+        "name": "Nectar Lounge, Seattle, WA, US",
+        "latitude": 47.6523697,
+        "longitude": -122.3538481
+    },
+    {
+        "id": 357,
+        "name": "Bi Nuu, Berlin, Germany",
+        "latitude": 52.500711,
+        "longitude": 13.441273
+    },
+    {
+        "id": 358,
+        "name": "Auditorium Parco della Musica, Rome, Italy",
+        "latitude": 41.9288906,
+        "longitude": 12.4748367
+    },
+    {
+        "id": 359,
+        "name": "Disco Volante, Oakland, CA, US",
+        "latitude": 37.8031731,
+        "longitude": -122.2686268
+    },
+    {
+        "id": 360,
+        "name": "Magasin 4, Brussels, Belgium",
+        "latitude": 50.864014,
+        "longitude": 4.349808100000001
+    },
+    {
+        "id": 361,
+        "name": "Sala El Sol, Madrid, Spain",
+        "latitude": 40.4190629,
+        "longitude": -3.7016321
+    },
+    {
+        "id": 362,
+        "name": "Olympiahalle, Munich, Germany",
+        "latitude": 48.17546460000001,
+        "longitude": 11.551797
+    },
+    {
+        "id": 363,
+        "name": "Yonge-Dundas Square, Toronto, ON, Canada",
+        "latitude": 43.65623919999999,
+        "longitude": -79.38016879999999
+    },
+    {
+        "id": 364,
+        "name": "Heretic Club, Bordeaux, France",
+        "latitude": 44.8327367,
+        "longitude": -0.5708436
+    },
+    {
+        "id": 365,
+        "name": "Count Basie Theatre, New York, NY, US",
+        "latitude": 40.3488692,
+        "longitude": -74.0701263
+    },
+    {
+        "id": 366,
+        "name": "City National Grove of Anaheim, Los Angeles, CA, US",
+        "latitude": 33.803124,
+        "longitude": -117.88594
+    },
+    {
+        "id": 367,
+        "name": "Auditorio Nacional, Mexico City, Mexico",
+        "latitude": 19.4248097,
+        "longitude": -99.19492559999999
+    },
+    {
+        "id": 368,
+        "name": "Watergate, Berlin, Germany",
+        "latitude": 52.5010558,
+        "longitude": 13.4452521
+    },
+    {
+        "id": 369,
+        "name": "Jazz Standard, New York, NY, US",
+        "latitude": 40.7422962,
+        "longitude": -73.983777
+    },
+    {
+        "id": 370,
+        "name": "El Corazon, Seattle, WA, US",
+        "latitude": 47.6187576,
+        "longitude": -122.32934
+    },
+    {
+        "id": 371,
+        "name": "Crawdaddy, Dublin, Ireland",
+        "latitude": 53.3498053,
+        "longitude": -6.2603097
+    },
+    {
+        "id": 372,
+        "name": "Purgatory at The Masquerade, Atlanta, GA, US",
+        "latitude": 33.7515657,
+        "longitude": -84.3897963
+    },
+    {
+        "id": 373,
+        "name": "Teatro Metropólitan, Mexico City, Mexico",
+        "latitude": 19.4334224,
+        "longitude": -99.1468692
+    },
+    {
+        "id": 374,
+        "name": "Loch Ness, Krakow, Poland",
+        "latitude": 50.0694756,
+        "longitude": 19.944178
+    },
+    {
+        "id": 375,
+        "name": "Dillon, Reykjavík, Iceland",
+        "latitude": 64.14526459999999,
+        "longitude": -21.9274491
+    },
+    {
+        "id": 376,
+        "name": "The Dublin Castle, Dublin, Ireland",
+        "latitude": 53.34288609999999,
+        "longitude": -6.2674284
+    }
+]
