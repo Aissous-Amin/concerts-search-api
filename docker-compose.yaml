@@ -1,0 +1,19 @@
+version: '3'
+services:
+  dev:
+    image: node:12
+    volumes:
+      - .:/usr/src/service
+    environment:
+      - NODE_ENV=development
+      - APP_PREFIX=/api
+      - APP_SERVER_PORT=4000
+    working_dir: /usr/src/service
+    command: bash -c "npm install && npm start"
+    ports:
+      - 4000:4000
+    networks:
+      - back
+networks:
+  back:
+    driver: bridge
