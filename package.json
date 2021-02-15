@@ -1,9 +1,13 @@
 {
-  "name": "init",
+  "name": "microservice-concerts",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node server"
+    "start": "node server",
+    "lint": "eslint --max-warnings=0 ./lib --ext .js",
+    "doc": "jsdoc -c jsdoc.config.js -r",
+    "build": "npm run lint && npm test && jsdoc -c jsdoc.config.js -r",
+    "sonar": "node sonar-project.js"
   },
   "dependencies": {
     "compression": "^1.7.4",
@@ -14,6 +18,7 @@
     "http-errors": "~1.6.2",
     "http-status": "^1.5.0",
     "jade": "~1.11.0",
+    "jsdoc": "^3.6.6",
     "moment": "^2.29.1",
     "morgan": "~1.9.0",
     "toobusy-js": "^0.5.1"
