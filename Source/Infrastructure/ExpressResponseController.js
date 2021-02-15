@@ -1,29 +1,5 @@
 const httpStatus = require('http-status');
 const moment = require('moment');
-const lodash = require('lodash');
-
-/**
- * undefinedSetup
- * @param {any} obj
- * @returns {any}
- */
-function undefinedSetup(obj) {
-    lodash.forEach(obj, (value, index) => {
-        if (Object.prototype.toString.apply(value) === '[object Object]') {
-            obj[index] = undefinedSetup(value);
-        } else if (Object.prototype.toString.apply(value) === '[object Array]') {
-            obj[index] = undefinedSetup(value);
-        } else {
-            if (obj[index] === 'undefined' || obj[index] === 'null' || obj[index] == null || obj[index] === 'Invalid date') {
-                obj[index] = '';
-            }
-            if (Number.isNaN(obj[index]) && (typeof obj[index] === 'number')) {
-                obj[index] = 0;
-            }
-        }
-    });
-    return obj;
-}
 
 /**
  * create_structure function : initialization of the response object structure.
@@ -35,7 +11,7 @@ function undefinedSetup(obj) {
 function create_structure(resource_type, resource, links) {
     const structure = {};
     structure._resource_type = (resource_type !== '' ? resource_type : 'Resource_Error');
-    structure._resource = undefinedSetup(resource);
+    structure._resource = resource;
     structure._links = links;
     structure._etag = moment().format('MMMM Do YYYY, h:mm:ss a');
     return structure;

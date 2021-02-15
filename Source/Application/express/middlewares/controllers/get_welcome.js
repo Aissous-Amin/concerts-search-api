@@ -19,7 +19,7 @@ module.exports = async (request, response, next) => {
             UserAgent: request.headers['user-agent'],
         };
         request._resource = result;
-        request._type_content = 'objedazct';
+        request._type_content = 'object';
     } catch (e) {
         console.error(e.message);
         request._type_content = 'internet_server_with_errors'

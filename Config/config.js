@@ -31,7 +31,6 @@ const EnvironmentVariable = () => {
     }
 };
 
-// eslint-disable-next-line jsdoc/require-example
 /**
  * Validate config.domain is set.
  *

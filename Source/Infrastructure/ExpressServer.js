@@ -19,7 +19,7 @@ class ExpressServer {
         /** @type {object} */
         const app = Express.init();
 
-        /** TODO : Create log directory with logger stream. */
+        /** TODO : Create log directory with logger stream or apm agent here. */
 
         /** Init service end-points. */
         middlewares(app);
@@ -27,14 +27,11 @@ class ExpressServer {
         return app;
     }
 
-    static async http_listen(app) {
+    static http_listen(app) {
         http.globalAgent.maxSockets = Infinity;
-        return new Promise((success) => {
-            server = http.createServer(app);
-            server.listen(__config.port, __config.host, () => {
-                success(server);
-            });
-        });
+        server = http.createServer(app);
+        server.listen(__config.port);
+        return server;
     }
 
     /**
@@ -45,7 +42,7 @@ class ExpressServer {
      * @returns {Promise<void>} Retourne une promise.
      */
     static async start(middlewares) {
-        const app = await this.init(middlewares);
+        const app = await ExpressServer.init(middlewares);
         await this.http_listen(app);
         console.log(__config.startMessage);
         console.log(`${__config.app.title} VERSION ${global.api_version}`);
@@ -61,11 +58,9 @@ class ExpressServer {
     }
 }
 
-
 /**
  * Module Web du service.
  *
  * @exports Infrastructure/http/ExpressServer
  * */
-
 module.exports = ExpressServer;

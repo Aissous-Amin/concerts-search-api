@@ -52,7 +52,6 @@ class Express {
 
         app.disable('x-powered-by');
     }
-
     /**
      * Initializing the ExpressJs application.
      *

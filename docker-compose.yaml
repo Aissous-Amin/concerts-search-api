@@ -7,11 +7,11 @@ services:
     environment:
       - NODE_ENV=development
       - APP_PREFIX=/api
-      - APP_SERVER_PORT=4000
+      - APP_SERVER_PORT=3000
     working_dir: /usr/src/service
     command: bash -c "npm install && npm start"
     ports:
-      - 4000:4000
+      - 3000:3000
     networks:
       - back
 networks:
