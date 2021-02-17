@@ -15,6 +15,8 @@ const env = {
     APP_SERVER_HOST: process.env.APP_SERVER_HOST,
     /** @type {string} */
     APP_SERVER_PORT: process.env.APP_SERVER_PORT,
+    /** @type {string} */
+    DATABASE_SERVER: process.env.DATABASE_SERVER
 };
 
 module.exports = env;
