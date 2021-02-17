@@ -1,4 +1,4 @@
-const mongoose = require('./mongoose/schemas');
+const mongoose = require('./mongoose');
 
 module.exports = {
     mongoose,

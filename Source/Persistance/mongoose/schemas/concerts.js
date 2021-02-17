@@ -3,8 +3,14 @@ const Schema = mongoose.Schema;
 const ObjectId = Schema.ObjectId;
 
 const concertsSchema = new Schema({
-    bandId: ObjectId,
-    venueId: ObjectId,
+    bandId: {
+        type: String,
+        ref: 'bands'
+    },
+    venueId: {
+        type: String,
+        ref: 'venues'
+    },
     date: Date
 }, {
     timestamps: true

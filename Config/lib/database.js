@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
 const env = require('../env/variables');
+const fs = require('fs')
+
 
 let pool = null;
 
@@ -60,6 +62,36 @@ class MONGOOSE {
         } catch (err) {
             console.error(err, "An error occured while disconneting mongoose from the MongoDB database");
             throw err;
+        }
+    }
+
+    static async import_data(data) {
+        try {
+            const promises = [];
+            const concerts = JSON.parse(fs.readFileSync(__dirname + '/data/concerts.json', 'utf-8'));
+            const bands = JSON.parse(fs.readFileSync(__dirname + '/data/bands.json', 'utf-8'));
+            const venues = JSON.parse(fs.readFileSync(__dirname + '/data/venues.json', 'utf-8'));
+            // Temporary Solution : The best way to apply change in data it's to use post hooks functions .pre
+            promises.push(...concerts.map(concert => data.Concerts.insertMany(concert)));
+            promises.push(...bands.map(band => {
+                band._id = band.id;
+                return data.Bands.insertMany(band)
+            }));
+            promises.push(...venues.map(venue => {
+                venue._id = venue.id;
+                venue.location = {
+                    type: 'Point',
+                    coordinate: []
+                };
+                venue.location.coordinate.push(venue.longitude, venue.latitude);
+                return data.Venues.create(venue)
+            }));
+            console.log('Importing data to mongodb database...');
+            await Promise.all(promises);
+            console.log('Import data to mongodb database : Done!');
+        } catch (e) {
+            console.error(e.message);
+            process.exit();
         }
     }
 }
