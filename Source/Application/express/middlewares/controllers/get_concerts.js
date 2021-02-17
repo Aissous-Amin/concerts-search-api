@@ -1,11 +1,14 @@
+const common_use_case = require('../../uses-cases');
+
+
 /**
- * @typedef {WelcomeSchema} WelcomeSchema
+ * @typedef {ConcertsSchema} ConcertsSchema
  */
 
 /**
- * MiddlewareController GET_WELCOME.
+ * MiddlewareController GET_CONCERTS.
  *
- * @module Welcome
+ * @module Concerts
  * @function
  * @param {object} request - Express request object.
  * @param {object} response - Express response object.
@@ -13,11 +16,7 @@
  */
 module.exports = async (request, response, next) => {
     try {
-        /** @type {{message: string, UserAgent: string}} */
-        const result = {
-            message: "Concerts-Service : Welcome To WeMaintain API",
-            UserAgent: request.headers['user-agent'],
-        };
+        const result = await common_use_case.queries.read_concerts_collection();
         request._resource = result;
         request._type_content = 'object';
     } catch (e) {
