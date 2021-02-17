@@ -1,9 +1,7 @@
-const bands = require('./bands');
-const concerts = require('./concerts');
-const venues = require('./venues');
+const schemas = require('./schemas');
+const queries = require('./queries');
 
 module.exports = {
-    bands,
-    concerts,
-    venues,
-};
+    schemas,
+    queries,
+}
