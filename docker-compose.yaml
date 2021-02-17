@@ -1,5 +1,12 @@
 version: '3'
 services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    networks:
+      - back
   dev:
     image: node:12
     volumes:
@@ -8,12 +15,15 @@ services:
       - NODE_ENV=development
       - APP_PREFIX=/api
       - APP_SERVER_PORT=3000
+      - DATABASE_SERVER=mongodb://mongodb/concerts_service_database
     working_dir: /usr/src/service
     command: bash -c "npm install && npm start"
     ports:
       - 3000:3000
     networks:
       - back
+    depends_on:
+      - mongodb
 networks:
   back:
     driver: bridge
