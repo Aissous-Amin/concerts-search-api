@@ -1,6 +1,11 @@
 const Express = require('./Express');
 const http = require('http');
 const MONGOOSE = require('../../Config/lib/database');
+const persistence = require(__moduleAliases.Persistance);
+
+const { Concerts } = persistence.mongoose.schemas.concerts;
+const { Bands } = persistence.mongoose.schemas.bands;
+const { Venues } = persistence.mongoose.schemas.venues;
 
 /** @memberof Infrastructure/ports/http */
 
@@ -18,6 +23,7 @@ class ExpressServer {
      */
     static async init(middlewares) {
         await MONGOOSE.init();
+        await MONGOOSE.import_data({ Bands, Venues, Concerts });
         /** @type {object} */
         const app = Express.init();
         /** TODO : Create log directory with logger stream or apm agent here. */
