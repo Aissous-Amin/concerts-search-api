@@ -1,5 +1,6 @@
 const Express = require('./Express');
 const http = require('http');
+const MONGOOSE = require('../../Config/lib/database');
 
 /** @memberof Infrastructure/ports/http */
 
@@ -16,14 +17,12 @@ class ExpressServer {
      * @param {*} middlewares - Middlewares Express.
      */
     static async init(middlewares) {
+        await MONGOOSE.init();
         /** @type {object} */
         const app = Express.init();
-
         /** TODO : Create log directory with logger stream or apm agent here. */
-
         /** Init service end-points. */
         middlewares(app);
-
         return app;
     }
 
