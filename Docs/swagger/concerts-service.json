@@ -1,0 +1,305 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Concerts Service",
+    "description": "Concerts Service returns the concerts matching the criterias given by the user.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "localhost:3000/api"
+    }
+  ],
+  "paths": {
+    "/welcome": {
+      "get": {
+        "tags": [
+          "Utils"
+        ],
+        "summary": "GET_Welcome",
+        "description": "Ping endpoint",
+        "operationId": "get-welcome",
+        "parameters": [
+        ],
+        "responses": {
+          "200": {
+            "description": "Status 200",
+            "headers": {
+              "WeMaintain-Api-Version": {
+                "description": "Version de l'API qui a traité la requête",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "La requête a échoué probablement en raison de paramètres incorrects.",
+            "headers": {
+              "WeMaintain-Api-Version": {
+                "description": "Version de l'API qui a traité la requête",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {}
+            }
+          },
+          "404": {
+            "description": "La ressource demandée n'existe pas sur le serveur",
+            "headers": {
+              "WeMaintain-Api-Version": {
+                "description": "Version de l'API qui a traité la requête",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {}
+            }
+          },
+          "500": {
+            "description": "Le serveur a rencontré une erreur dans le traitement de la requête",
+            "headers": {
+              "WeMaintain-Api-Version": {
+                "description": "Version de l'API qui a traité la requête",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/concerts": {
+      "get": {
+        "tags": [
+          "CONCERTS"
+        ],
+        "summary": "GET_Concerts",
+        "description": "Cette API nous permet de récuprer la liste des concerts répondant au critères de filtre.",
+        "operationId": "get-concerts",
+        "parameters": [
+        ],
+        "responses": {
+          "200": {
+            "description": "Renvoie la ressource Concerts",
+            "headers": {
+              "WeMaintain-Api-Version": {
+                "description": "Version de l'API qui a traité la requête",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConcertsGet200ApplicationJsonResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "La requête a échoué probablement en raison de paramètres incorrects.",
+            "headers": {
+              "WeMaintain-Api-Version": {
+                "description": "Version de l'API qui a traité la requête",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resource_Error_Message"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "La ressource demandée n'existe pas sur le serveur",
+            "headers": {
+              "WeMaintain-Api-Version": {
+                "description": "Version de l'API qui a traité la requête",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resource_Error_Message"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Le serveur a rencontré une erreur dans le traitement de la requête",
+            "headers": {
+              "WeMaintain-Api-Version": {
+                "description": "Version de l'API qui a traité la requête",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resource_Error_Message"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Error_Message": {
+        "type": "object",
+        "required": [
+          "_api_status_code",
+          "_api_status_message"
+        ],
+        "properties": {
+          "_api_status_code": {
+            "type": "integer",
+            "description": "vaut 0 ou <code_erreur> : en cas d'échec\n\n4000 : erreur liée aux paramètres de la requête\n\n5000 : erreur dans le traitement serveur"
+          },
+          "_api_status_message": {
+            "type": "string",
+            "description": "message associé à l'erreur"
+          },
+          "_api_status_id": {
+            "type": "string",
+            "description": "Identifiant d'une requête qui permet, en cas d'erreur non prévue ou connue, de rechercher dans les logs."
+          }
+        },
+        "description": "Cette structure est renvoyée au client en cas d'erreur de la requête"
+      },
+      "Resource_Error_Message": {
+        "type": "object",
+        "required": [
+          "_etag",
+          "_links",
+          "_resource",
+          "_resource_type"
+        ],
+        "properties": {
+          "_resource_type": {
+            "type": "string",
+            "enum": [
+              "Resource_Error"
+            ]
+          },
+          "_resource": {
+            "$ref": "#/components/schemas/Error_Message"
+          },
+          "_links": {
+            "required": [
+              "url"
+            ],
+            "type": "object",
+            "properties": {
+              "self": {
+                "type": "string"
+              }
+            }
+          },
+          "_etag": {
+            "type": "string",
+            "description": "Date de dernière lecture des données de la ressource"
+          }
+        },
+        "description": "Cette structure est renvoyée au client en cas d'erreur de la requête"
+      },
+      "ConcertsGet200ApplicationJsonResponse": {
+        "required": [
+          "_etag",
+          "_links",
+          "_resource",
+          "_resource_type"
+        ],
+        "type": "object",
+        "properties": {
+          "_resource_type": {
+            "type": "string",
+            "enum": [
+              "Resource_Concerts_Response"
+            ]
+          },
+          "_resource": {
+            "type": "object",
+            "properties": {
+              "date": {
+                "type": "string",
+                "description": ""
+              },
+              "band": {
+                "$ref": "#/components/schemas/Bands"
+              },
+              "venues": {
+                "$ref": "#/components/schemas/Venues"
+              }
+            }
+          },
+          "_links": {
+            "type": "object"
+          },
+          "_etag": {
+            "type": "string",
+            "description": "Date de dernière écriture des données de la ressource"
+          }
+        }
+      },
+      "Bands": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Le nom du groupe."
+          }
+        }
+      },
+      "Venues": {
+        "type": "object",
+        "required": [
+          "name",
+          "position"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Le nom de la salle."
+          },
+          "location": {
+            "type": "object",
+            "properties": {
+              "latitude": {
+                "type": "string"
+              },
+              "longitude": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
