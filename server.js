@@ -4,7 +4,7 @@
 
 require('./Config/config');
 
-const { ExpressServer } = require(__moduleAliases.Infrastructure);
+const { ExpressServer } = require(__moduleAliases.Infrastructure).http;
 
 const { routes } = require(__moduleAliases.Application).express;
 

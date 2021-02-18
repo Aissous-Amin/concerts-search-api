@@ -1,6 +1,6 @@
 const Express = require('./Express');
 const http = require('http');
-const MONGOOSE = require('../../Config/lib/database');
+const MONGOOSE = require('../../../Config/lib/database');
 const persistence = require(__moduleAliases.Persistance);
 
 const { Concerts } = persistence.mongoose.schemas.concerts;

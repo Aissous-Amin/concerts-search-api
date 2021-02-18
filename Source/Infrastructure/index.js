@@ -1,7 +1,5 @@
-const ExpressServer = require('./ExpressServer');
-const ResponseController = require('./ExpressResponseController');
+const http = require('./httpPort');
 
 module.exports = {
-    ExpressServer,
-    ResponseController,
+    http,
 };

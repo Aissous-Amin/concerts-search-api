@@ -84,7 +84,7 @@ class MONGOOSE {
                     coordinate: []
                 };
                 venue.location.coordinate.push(venue.longitude, venue.latitude);
-                return data.Venues.create(venue)
+                return data.Venues.create(venue);
             }));
             console.log('Importing data to mongodb database...');
             await Promise.all(promises);
