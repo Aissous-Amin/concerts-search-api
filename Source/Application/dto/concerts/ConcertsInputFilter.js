@@ -9,14 +9,14 @@ const CommonErrorMessage = require('../common/CommonErrorMessage');
  * @property {number} radius - Radius in kilometers.
  */
 const ConcertsInputFilter = Joi.object({
-    bandIds: Joi.array().required()
+    bandIds: Joi.array().optional()
         .error(CommonErrorMessage.validate),
-    latitude: Joi.number()
+    latitude: Joi.number().optional()
         .error(CommonErrorMessage.validate),
-    longitude: Joi.number()
+    longitude: Joi.number().optional()
         .error(CommonErrorMessage.validate),
-    radius: Joi.number()
+    radius: Joi.number().integer().optional()
         .error(CommonErrorMessage.validate),
-});
+}).min(1);
 
 module.exports = ConcertsInputFilter;

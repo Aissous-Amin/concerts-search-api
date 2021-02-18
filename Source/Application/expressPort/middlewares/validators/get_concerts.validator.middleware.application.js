@@ -27,7 +27,7 @@ function validate_input_filter(query) {
 module.exports = async (request, response, next) => {
     try {
         /** Split bandIds query to an array of id. */
-        request.query.bandIds ? request.query.bandIds = request.query.bandIds.split(',') : null;
+        request.query.bandIds ? request.query.bandIds = request.query.bandIds.trim().split(',') : null;
         const result = validate_input_filter(request.query);
         if (!result.valid) {
             request._type_content = 'bad_request_with_errors'
