@@ -3,10 +3,7 @@ const persistance = require(__moduleAliases.Persistance);
 /**
  * Return all concerts respecting the input filter.
  *
- * @param query {object} Query - Object with filter settings.
- * @returns {Promise<Object>}
+ * @param {object} query - Object with filter settings.
+ * @returns {Promise<object>}
  */
-module.exports = async (query) => {
-    const result = await persistance.mongoose.queries.common.get_all_venues(query);
-    return result;
-};
+module.exports = query => persistance.mongoose.queries.concerts.get_all_concerts_with_filter(query);

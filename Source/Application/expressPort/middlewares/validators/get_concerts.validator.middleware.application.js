@@ -30,11 +30,11 @@ module.exports = async (request, response, next) => {
         request.query.bandIds ? request.query.bandIds = request.query.bandIds.trim().split(',') : null;
         const result = validate_input_filter(request.query);
         if (!result.valid) {
-            request._type_content = 'bad_request_with_errors'
-            request._details = result.error.details.map(elm => elm.message);
+            request._type_content = 'bad_request_with_errors';
+            request._details = result.error ? result.error.details.map(elm => elm.message) : [];
         }
     } catch (e) {
-        request._type_content = 'internal_server_with_errors'
+        request._type_content = 'internal_server_with_errors';
         request._details = { message: e.message };
     } finally {
         next();
