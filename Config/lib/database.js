@@ -34,11 +34,11 @@ class MONGOOSE {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
                 useFindAndModify: false,
+                useCreateIndex: true,
                 poolSize: 10,
-                autoIndex: false,
             });
             /** Set up default mongoose connection. */
-            await mongoose.connect(env.DATABASE_SERVER, extendedParameters);
+            await mongoose.connect(extendedParameters.server, extendedParameters);
             pool =  mongoose.connection;
             pool.on('error', console.error.bind(console, 'MongoDB connection error:'));
         } catch (e) {
@@ -72,22 +72,12 @@ class MONGOOSE {
             const bands = JSON.parse(fs.readFileSync(__dirname + '/data/bands.json', 'utf-8'));
             const venues = JSON.parse(fs.readFileSync(__dirname + '/data/venues.json', 'utf-8'));
             // Temporary Solution : The best way to apply change in data it's to use post hooks functions .pre
-            promises.push(...concerts.map(concert => data.Concerts.insertMany(concert)));
-            promises.push(...bands.map(band => {
-                band._id = band.id;
-                return data.Bands.insertMany(band)
-            }));
-            promises.push(...venues.map(venue => {
-                venue._id = venue.id;
-                venue.location = {
-                    type: 'Point',
-                    coordinate: []
-                };
-                venue.location.coordinate.push(venue.longitude, venue.latitude);
-                return data.Venues.create(venue);
-            }));
+            promises.push(data.Concerts.insertMany(concerts));
+            promises.push(data.Bands.insertMany(bands));
+            promises.push(data.Venues.insertMany(venues));
             console.log('Importing data to mongodb database...');
             await Promise.all(promises);
+            // pool.model.createIndex({"location": "2dsphere"})
             console.log('Import data to mongodb database : Done!');
         } catch (e) {
             console.error(e.message);
