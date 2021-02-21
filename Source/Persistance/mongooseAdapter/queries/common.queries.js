@@ -11,6 +11,7 @@ const { Venues } = require('../schemas/venues.schemas');
  * @returns {object} Result - All concerts with details of band and venue information.
  */
 function get_all_venues_where_location_within_radius(longitude, latitude, radius, bandIds) {
+    /** TODO : Fix $geoNear bug . */
     return Venues.aggregate([
         {
             $geoNear: {
