@@ -35,7 +35,7 @@ module.exports = async (request, response, next) => {
         }
     } catch (e) {
         request._type_content = 'internal_server_with_errors';
-        request._details = { message: e.message };
+        request._details = [{ message: e.message }];
     } finally {
         next();
     }
