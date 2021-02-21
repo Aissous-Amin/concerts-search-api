@@ -1,21 +1,22 @@
 const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
 
-const bandsSchema = new Schema({
-    _id: {
+const { Schema } = mongoose;
+
+const bandSchema = new Schema({
+    id: {
         type: Number,
         index: {
             unique: true,
-        }
+        },
     },
-    name: String
+    name: String,
+}, { _id: false, autoIndex: false });
+
+bandSchema.virtual("bands", {
+    ref: "Band", // The model to use
+    localField: "id", // Find band where `localField`
+    foreignField: "bandId", // is equal to `foreignField`
 });
 
-/*bandsSchema.pre('save', {query: true, document: true}, (err, data, next) => {
-    this._id = data.id;
-    this.name = data.name;
-    next();
-});*/
-
-module.exports.Bands = mongoose.model('Bands', bandsSchema);
+module.exports.Bands = mongoose.model('Band', bandSchema);
 

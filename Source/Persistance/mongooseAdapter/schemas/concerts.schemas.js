@@ -1,19 +1,23 @@
 const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
-const ObjectId = Schema.ObjectId;
 
-const concertsSchema = new Schema({
+const { Schema } = mongoose;
+
+const concertSchema = new Schema({
     bandId: {
-        type: String,
-        ref: 'bands'
+        type: Number,
+        ref: 'Band',
     },
     venueId: {
-        type: String,
-        ref: 'venues'
+        type: Number,
+        ref: 'Venue',
     },
-    date: Date
-}, {
-    timestamps: true
+    date: Date,
+}, { _id: false, autoIndex: false });
+
+concertSchema.virtual('concerts', {
+    ref: 'Concert', // The model to use
+    localField: '_id', // Find concert where `localField`
+    foreignField: 'concert', // is equal to `foreignField`
 });
 
-module.exports.Concerts = mongoose.model('Concerts', concertsSchema);
+module.exports.Concerts = mongoose.model('Concert', concertSchema);
