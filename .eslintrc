@@ -30,11 +30,19 @@
       "error",
       {
         "allow": [
+          "_etag",
+          "_links",
+          "_api_status_id",
+          "_api_status_message",
+          "_api_status_code",
+          "_resource_type",
           "_request_id",
+          "_type_content",
           "__config",
           "__base",
           "__baseSrouce",
-          "_resource"
+          "_resource",
+          "_details"
         ]
       }
     ],
