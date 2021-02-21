@@ -4,7 +4,7 @@ const { Schema } = mongoose;
 
 const bandSchema = new Schema({
     id: {
-        type: Number,
+        type: String,
         index: {
             unique: true,
         },

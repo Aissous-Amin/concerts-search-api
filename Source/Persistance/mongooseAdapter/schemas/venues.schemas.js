@@ -16,7 +16,7 @@ const pointSchema = new mongoose.Schema({
 
 const venueSchema = new Schema({
     id: {
-        type: Number,
+        type: String,
         index: {
             unique: true,
         },

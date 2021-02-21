@@ -4,11 +4,11 @@ const { Schema } = mongoose;
 
 const concertSchema = new Schema({
     bandId: {
-        type: Number,
+        type: String,
         ref: 'Band',
     },
     venueId: {
-        type: Number,
+        type: String,
         ref: 'Venue',
     },
     date: Date,
