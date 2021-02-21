@@ -1,5 +1,5 @@
-const concertsInputFilter = require('./ConcertsInputFilter')
+const concertsInputFilter = require('./ConcertsInputFilter');
 
 module.exports = {
     concertsInputFilter,
-}
+};

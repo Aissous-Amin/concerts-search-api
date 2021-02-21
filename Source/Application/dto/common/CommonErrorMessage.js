@@ -33,6 +33,11 @@ class CommonErrorMessage {
                 };
                 break;
             default:
+                err.message = {
+                    message: `${err.local.missing ? `Missing query : ${err.local.missing[0]}` : `Object unknown : forbidden extra query = ${err.local.key}`}`,
+                    id: 'RV-0000',
+                    type: functionalMessage.concerts.RADIUS.TYPE,
+                };
                 break;
             }
         });
