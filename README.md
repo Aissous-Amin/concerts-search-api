@@ -79,7 +79,7 @@ This is an ExpressJs application service, there are two ways to launch the appli
         - Error and exception monitoring of the application
         - If we use kubernetes we can monitor the cluster health (pods, service, ingress)
    - We can use the following tools :
-        - We can use APM Elastic Agent that allows us to monitor software services and applications in real-time, by collecting detailed performance information on response time for incoming requests, database queries, calls to caches, external HTTP requests, and more. @CR [Source](https://www.elastic.co/fr/apm?ultron=B-Stack-Trials-EMEA-S-FR-BMM&gambit=Elasticsearch-APM&blade=adwords-s&hulk=cpc&Device=c&thor=%2Bapm%20%2Belasticsearch&gclid=CjwKCAiAmrOBBhA0EiwArn3mfGz4VZhMGU-N7HfJyagy3LOIDFXBNITkwdWA7P9jQ9Us16oax0GIpBoCrtQQAvD_BwE)
+        - We can use APM Elastic Agent that allows us to monitor software services and applications in real-time, by collecting detailed performance information on response time for incoming requests, database queries, calls to caches, external HTTP requests, and more. @CopyRight [Source](https://www.elastic.co/fr/apm?ultron=B-Stack-Trials-EMEA-S-FR-BMM&gambit=Elasticsearch-APM&blade=adwords-s&hulk=cpc&Device=c&thor=%2Bapm%20%2Belasticsearch&gclid=CjwKCAiAmrOBBhA0EiwArn3mfGz4VZhMGU-N7HfJyagy3LOIDFXBNITkwdWA7P9jQ9Us16oax0GIpBoCrtQQAvD_BwE)
         - We can use a cloud solution like DataDog or  AZURE APIM
             - With azure APIM we can manage our gateway, secure it, expose it to external clients and also monitor it using the azure services such as log analytics and azure monitor…etc
 
