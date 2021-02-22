@@ -2,7 +2,7 @@
   "openapi": "3.0.0",
   "info": {
     "title": "Concerts Service",
-    "description": "Concerts Service returns the concerts matching the criterias given by the user.",
+    "description": "Concerts Service returns the concerts matching the criteria given by the user.",
     "version": "1.0.0"
   },
   "servers": [
@@ -90,6 +90,34 @@
         "description": "Cette API nous permet de récuprer la liste des concerts répondant au critères de filtre.",
         "operationId": "get-concerts",
         "parameters": [
+          {
+            "name": "bandIds",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "radius",
+            "in": "query",
+            "schema": {
+              "type": "number"
+            }
+          },
+          {
+            "name": "longitude",
+            "in": "query",
+            "schema": {
+              "type": "number"
+            }
+          },
+          {
+            "name": "latitude",
+            "in": "query",
+            "schema": {
+              "type": "number"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -240,7 +268,7 @@
           "_resource_type": {
             "type": "string",
             "enum": [
-              "Resource_Concerts_Response"
+              "Concerts_Collection_Resource"
             ]
           },
           "_resource": {
@@ -250,11 +278,21 @@
                 "type": "string",
                 "description": ""
               },
-              "band": {
-                "$ref": "#/components/schemas/Bands"
+              "location": {
+                "type": "string",
+                "description": ""
               },
-              "venues": {
-                "$ref": "#/components/schemas/Venues"
+              "band": {
+                "type": "string",
+                "description": ""
+              },
+              "longitude": {
+                "type": "number",
+                "description": ""
+              },
+              "latitude": {
+                "type": "number",
+                "description": ""
               }
             }
           },
