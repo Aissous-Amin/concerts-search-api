@@ -69,6 +69,7 @@ This is an ExpressJs application service, there are two ways to launch the appli
         - No paging system
         - No integrated logging system
         - No authentication system
+        - No unit test (lack of time :/)
 3. What are the key elements of your architecture that would need to be monitored, and what would you use to monitor those ?
    - We can monitor the following elements
         - Monitoring the http traffic
@@ -81,3 +82,51 @@ This is an ExpressJs application service, there are two ways to launch the appli
         - We can use APM Elastic Agent that allows us to monitor software services and applications in real-time, by collecting detailed performance information on response time for incoming requests, database queries, calls to caches, external HTTP requests, and more. @CP[Source](https://www.elastic.co/fr/apm?ultron=B-Stack-Trials-EMEA-S-FR-BMM&gambit=Elasticsearch-APM&blade=adwords-s&hulk=cpc&Device=c&thor=%2Bapm%20%2Belasticsearch&gclid=CjwKCAiAmrOBBhA0EiwArn3mfGz4VZhMGU-N7HfJyagy3LOIDFXBNITkwdWA7P9jQ9Us16oax0GIpBoCrtQQAvD_BwE)
         - We can use a cloud solution like DataDog or  AZURE APIM
             - With azure APIM we can manage our gateway, secure it, expose it to external clients and also monitor it using the azure services such as log analytics and azure monitor…etc
+
+
+**Note**
+- For geolocation, i used a GeoJson schema with a point type location '2dsphere' index.
+ I had a bug with mongoose and yet the query below works well with mongodb : 
+`db.getCollection('venues').aggregate([
+         {
+             $geoNear: {
+                 near: { type: "Point", coordinates: [-79.3535794, 43.6396748] },
+                 key: "location",
+                 distanceField: "distance",
+                 maxDistance: 1,
+                 spherical: false
+             },
+         },
+         {
+             $lookup: {
+                 from: "concerts",
+                 localField: "id",
+                 foreignField: "venueId",
+                 as: "concerts",
+             },
+         },
+         { $unwind: "$concerts" },
+         {
+             $lookup: {
+                 from: "bands",
+                 localField: "concerts.bandId",
+                 foreignField: "id",
+                 as: "bands",
+             },
+         },
+         { $unwind: "$bands" },
+         {
+             $project: {
+                 location: "$name",
+                 date: "$concerts.date",
+                 band: "$bands.name",
+                 longitude: { $arrayElemAt: ["$location.coordinates", 0] },
+                 latitude: { $arrayElemAt: ["$location.coordinates", 1] },
+             },
+         },
+         {
+             $sort: {
+                 date: -1,
+             },
+         },
+     ])`
