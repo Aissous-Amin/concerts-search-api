@@ -67,7 +67,7 @@ This is an ExpressJs application service, there are two ways to launch the appli
    
    - here are some important part if I have to clarify what is missing today in this application :
         - No paging system
-        - No integrated logging system
+        - No integrated logger system
         - No authentication system
         - No unit test (lack of time :/)
 3. What are the key elements of your architecture that would need to be monitored, and what would you use to monitor those ?
