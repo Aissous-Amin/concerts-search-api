@@ -5,19 +5,22 @@ const { Venues } = require('../schemas/venues.schemas');
  *
  * @param {number} longitude - Longitude.
  * @param {number} latitude - Latitude.
- * @param {number} radius - Radius in Kilometers.
+ * @param {number} distance - Distance in Kilometers.
  * @param {Array<number>} bandIds - Band id list.
  * @returns {object} Result - All concerts with details of band and venue information.
  */
-function get_all_venues_where_location_within_radius(longitude, latitude, radius, bandIds) {
-    /** TODO : Fix $geoNear bug . */
+function get_all_venues_where_location_within_radius(longitude, latitude, distance, bandIds) {
+    /** Convert Kilometer to Earth's Equatorial Radius. */
+    const radius = parseFloat(distance) / 6378.1;
+    // TODO : Fix $geoNear bug.
     return Venues.aggregate([
         {
             $geoNear: {
-                near: { type: "Point", coordinates: [parseFloat(longitude), parseFloat(latitude)] },
+                near: [parseFloat(longitude), parseFloat(latitude)],
+                type: 'Point',
                 key: "location",
                 distanceField: "distance",
-                maxDistance: parseFloat(radius),
+                maxDistance: radius,
                 spherical: true,
             },
         },
@@ -54,7 +57,8 @@ function get_all_venues_where_location_within_radius(longitude, latitude, radius
                 date: -1,
             },
         },
-    ]);
+    ]).limit(20);
+    //todo pagination system
 }
 
 module.exports = {
