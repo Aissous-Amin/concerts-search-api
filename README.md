@@ -85,48 +85,9 @@ This is an ExpressJs application service, there are two ways to launch the appli
 
 
 **Note**
-- For geolocation, i used a GeoJson schema with a point type location '2dsphere' index.
- I had a bug with mongoose and yet the query below works well with mongodb : 
-`db.getCollection('venues').aggregate([
-         {
-             $geoNear: {
-                 near: { type: "Point", coordinates: [-79.3535794, 43.6396748] },
-                 key: "location",
-                 distanceField: "distance",
-                 maxDistance: 1,
-                 spherical: false
-             },
-         },
-         {
-             $lookup: {
-                 from: "concerts",
-                 localField: "id",
-                 foreignField: "venueId",
-                 as: "concerts",
-             },
-         },
-         { $unwind: "$concerts" },
-         {
-             $lookup: {
-                 from: "bands",
-                 localField: "concerts.bandId",
-                 foreignField: "id",
-                 as: "bands",
-             },
-         },
-         { $unwind: "$bands" },
-         {
-             $project: {
-                 location: "$name",
-                 date: "$concerts.date",
-                 band: "$bands.name",
-                 longitude: { $arrayElemAt: ["$location.coordinates", 0] },
-                 latitude: { $arrayElemAt: ["$location.coordinates", 1] },
-             },
-         },
-         {
-             $sort: {
-                 date: -1,
-             },
-         },
-     ])`
+- Next features :
+    - The pagination mechanism is to do with monggose paginate.
+    - Unit test is also to do with : mocha and sinon
+    - Integration test to do with : supertest
+    - Setup the logger middleware function 
+    - Setup APM Elastic Agent to index log
