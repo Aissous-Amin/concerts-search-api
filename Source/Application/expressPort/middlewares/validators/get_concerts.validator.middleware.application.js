@@ -7,7 +7,7 @@ const { concerts } = require('./../../../dto');
  * Used to validate the input elements.
  *
  * @param {object} query - Object of query filter input.
- * @returns {{valid: boolean, error: *}}
+ * @returns {{valid: {boolean}, error: {Object}}}
  */
 function validate_input_filter(query) {
     const inputValidator = concerts.concertsInputFilter;
@@ -24,7 +24,7 @@ function validate_input_filter(query) {
  * @param {object} response - Express response object.
  * @param {Function} next - Callback Express.
  */
-module.exports = async (request, response, next) => {
+module.exports = (request, response, next) => {
     try {
         /** Split bandIds query to an array of id. */
         request.query.bandIds ? request.query.bandIds = request.query.bandIds.trim().split(',') : null;

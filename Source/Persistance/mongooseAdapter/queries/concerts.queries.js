@@ -1,24 +1,50 @@
-const { get_all_venues_where_location_within_radius, get_all_concerts_by_band_id } = require('./common.queries');
+const { Concerts } = require('../schemas/concerts.schemas');
 
 /**
- * Allows to find all the concerts respecting the filter : Get_all_concerts_with_filter.
+ * Allows to find all the concerts where bandIds in band.id.
  *
- * @param {object} query - Contains all the filters passed as input.
- * @param {Array<number>} query.bandIds - Band id list.
- * @param {number} query.longitude - Longitude.
- * @param {number} query.latitude - Latitude.
- * @param {number} query.radius - Radius in Kiloliter.
+ * @param {number} bandIds - List of band id.
  * @returns {object} Result - All concerts with details of band and venue information.
  */
-function get_all_concerts_with_filter({ bandIds, longitude, latitude, radius}) {
-    if (longitude) {
-        return get_all_venues_where_location_within_radius(longitude, latitude, radius, bandIds);
-    } else if (bandIds) {
-        return get_all_concerts_by_band_id(bandIds);
-    }
-    return {};
+function get_all_concerts_by_band_id(bandIds) {
+    return Concerts.aggregate([
+        { $match: { bandId: { $in: bandIds } } },
+        {
+            $lookup: {
+                from: "bands",
+                localField: "bandId",
+                foreignField: "id",
+                as: "band",
+            },
+        },
+        { $unwind: "$band" },
+        {
+            $lookup: {
+                from: "venues",
+                localField: "venueId",
+                foreignField: "id",
+                as: "venue",
+            },
+        },
+        { $unwind: "$venue" },
+        {
+            $project: {
+                location: "$venue.name",
+                date: 1,
+                band: "$band.name",
+                longitude: { $arrayElemAt: ["$venue.location.coordinates", 0] },
+                latitude: { $arrayElemAt: ["$venue.location.coordinates", 1] },
+            },
+        },
+        {
+            $sort: {
+                date: -1,
+            },
+        },
+    ]);
 }
 
+
 module.exports = {
-    get_all_concerts_with_filter,
+    get_all_concerts_by_band_id,
 };
