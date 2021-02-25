@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node server",
-    "lint": "eslint --max-warnings=0 ./lib --ext .js",
+    "lint": "eslint --max-warnings=0 ./Source --ext .js",
     "doc": "jsdoc -c jsdoc.config.js -r",
     "build": "npm run lint && npm test && jsdoc -c jsdoc.config.js -r",
     "sonar": "node sonar-project.js"
