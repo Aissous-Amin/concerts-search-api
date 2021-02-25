@@ -1,4 +1,5 @@
 const { middleware, paths } = require('./../index');
+
 const { ResponseController } = require(__moduleAliases.Infrastructure).http;
 
 module.exports = [
@@ -7,7 +8,7 @@ module.exports = [
             app.route(paths.welcome.url)
                 .get(
                     middleware.controllers.get_welcome,
-                    ResponseController.ExpressResponseController
+                    ResponseController.ExpressResponseController,
                 );
         },
         envs: ['all'],

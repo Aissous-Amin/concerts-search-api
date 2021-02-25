@@ -27,6 +27,7 @@ function validate_input_filter(query) {
 module.exports = (request, response, next) => {
     try {
         /** Split bandIds query to an array of id. */
+        // eslint-disable-next-line no-unused-expressions
         request.query.bandIds ? request.query.bandIds = request.query.bandIds.trim().split(',') : null;
         const result = validate_input_filter(request.query);
         if (!result.valid) {

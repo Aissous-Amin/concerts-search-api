@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 const { functionalMessage } = require(__moduleAliases.Domain);
 
 class CommonErrorMessage {
@@ -32,11 +33,46 @@ class CommonErrorMessage {
                     type: functionalMessage.concerts.RADIUS.TYPE,
                 };
                 break;
+            case undefined:
+                err.message = {
+                    message: functionalMessage.common.UNDEFINED.MESSAGE,
+                    id: functionalMessage.common.UNDEFINED.ID,
+                    type: functionalMessage.common.UNDEFINED.TYPE,
+                };
+                break;
             default:
                 err.message = {
                     message: `${err.local.missing ? `Missing query : ${err.local.missing[0]}` : `Object unknown : forbidden extra query = ${err.local.key}`}`,
                     id: 'RV-0000',
                     type: functionalMessage.concerts.RADIUS.TYPE,
+                };
+                break;
+            }
+        });
+        return errors;
+    }
+    static validate_global(errors) {
+        errors.forEach((err) => {
+            switch (err.code) {
+            case 'number.base':
+                err.message = {
+                    message: `${functionalMessage.concerts.BANDIDS.MESSAGE} : ${err.local.value}`,
+                    id: functionalMessage.concerts.BANDIDS.ID,
+                    type: functionalMessage.concerts.BANDIDS.TYPE,
+                };
+                break;
+            case 'object.unknown':
+                err.message = {
+                    message: `${functionalMessage.common.OBJECT_UNKNOWN.MESSAGE} : ${err.local.key} = ${err.local.value}`,
+                    id: functionalMessage.common.OBJECT_UNKNOWN.ID,
+                    type: functionalMessage.common.OBJECT_UNKNOWN.TYPE,
+                };
+                break;
+            default:
+                err.message = {
+                    message: `${functionalMessage.common.OBJECT_MISSING.MESSAGE} : ${err.local.missing[0]}`,
+                    id: functionalMessage.common.OBJECT_MISSING.ID,
+                    type: functionalMessage.common.OBJECT_MISSING.TYPE,
                 };
                 break;
             }

@@ -10,7 +10,9 @@ const persistance = require(__moduleAliases.Persistance);
  * @param {number} query.radius - Radius in Kiloliter.
  * @returns {object} Result - All concerts with details of band and venue information.
  */
-function read_concerts_service({ bandIds, longitude, latitude, radius}) {
+function read_concerts_service({
+    bandIds, longitude, latitude, radius,
+}) {
     if (longitude) {
         return persistance.mongoose.queries.common.get_all_venues_where_location_within_radius(longitude, latitude, radius, bandIds);
     } else if (bandIds) {

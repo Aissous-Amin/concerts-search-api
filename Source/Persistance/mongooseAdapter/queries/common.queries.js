@@ -33,6 +33,7 @@ function get_all_venues_where_location_within_radius(longitude, latitude, distan
             },
         },
         { $unwind: "$concerts" },
+        // eslint-disable-next-line no-mixed-operators
         ...(bandIds && [{ $match: { "concerts.bandId": { $in: bandIds } } }] || []),
         {
             $lookup: {
@@ -58,7 +59,7 @@ function get_all_venues_where_location_within_radius(longitude, latitude, distan
             },
         },
     ]).limit(20);
-    //todo pagination system
+    // todo pagination system
 }
 
 module.exports = {
