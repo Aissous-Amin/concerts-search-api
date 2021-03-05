@@ -1,6 +1,8 @@
 /* eslint-disable global-require */
 const express = require('express');
 
+const { ResponseController } = require(__moduleAliases.Infrastructure).http;
+
 /**
  * Liste des routes exposés par le service .
  *
@@ -32,4 +34,17 @@ module.exports = (app) => {
      * Tous les end-point seront accessible sur chemin __config.prefix.
      */
     app.use(__config.prefix, versionRouter);
+
+    /** Catch unhandled errors. */
+    app.all('*', (request, response) => {
+        request._type_content = 'not_found_with_errors';
+        request._details = { message: 'The server could not find the requested resource' };
+        ResponseController.ExpressResponseController(request, response);
+    });
+
+    app.use((error, request, response) => {
+        console.error(error);
+        request._type_content = 'internal_server_with_errors';
+        ResponseController.ExpressResponseController(request, response);
+    });
 };
