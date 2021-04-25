@@ -2,6 +2,7 @@ const Express = require('./Express');
 const http = require('http');
 const MONGOOSE = require('../../../Config/lib/database');
 const APM = require('../../../Config/lib/apm');
+const APPINSIGHTS = require('../../../Config/lib/azureApplicationInsights');
 
 const persistence = require(__moduleAliases.Persistance);
 const { Concerts } = persistence.mongoose.schemas.concerts;
@@ -23,11 +24,18 @@ class ExpressServer {
      * @param {*} middlewares - Middlewares Express.
      */
     static async init(middlewares) {
+        /** init connection with Mongoose data base. */
         await MONGOOSE.init();
-        await MONGOOSE.import_data({ Bands, Venues, Concerts });
+        /** Implement data into our Mongoose data base. */
+        // await MONGOOSE.import_data({ Bands, Venues, Concerts });
         /** @type {object} */
         const app = Express.init();
-        APM.init();
+        /** init connection with APM agent. */
+        // APM.init();
+        /** Create log directory with logger stream. */
+        logger.initDir();
+        /** init connection with azure application insights. */
+        APPINSIGHTS.init(__config.AZURE_APPLICATION_INSIGHTS);
         /** TODO : Create log directory with logger stream or apm agent here. */
         /** Init service end-points. */
         middlewares(app);
